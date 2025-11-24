@@ -50,7 +50,7 @@
     
 
 })(jQuery);
-var titles = ["685.20", "Qapıda təqdimatların verilməsi", "Saytımıza xoş gəlmisiniz!"];
+var titles = ["Access Control System", "Welcome to our Website!"];
 var counter = 0;
 setInterval(function () {
     document.title = titles[counter % titles.length];

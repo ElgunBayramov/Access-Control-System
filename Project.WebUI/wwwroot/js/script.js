@@ -102,7 +102,7 @@ function sortTable(n) {
     }
 }
 
-var titles = ["Qapıda təqdimatların verilməsi", "Saytımıza xoş gəlmisiniz!", "Layihə-685.20"];
+var titles = ["Access Control System", "Welcome to our website!"];
 var counter = 0;
 setInterval(function () {
     document.title = titles[counter % titles.length];
