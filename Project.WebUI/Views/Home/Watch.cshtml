@@ -1,0 +1,463 @@
+﻿@using Project.WebUI.Models.Entities
+@model List<Permission>
+@{
+    ViewData["Title"] = "Watch";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="icon" type="image/png" href="https://seeklogo.com/images/T/the-project-logo-6082FFB8D5-seeklogo.com.png" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400">
+    <title>Layihə-685.20</title>
+    <script src="https://kit.fontawesome.com/dbccfca02d.js" crossorigin="anonymous"></script>
+    <style>
+         body {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 5.5rem;
+     background-image: url('../images/image.jpg'); 
+     /*background-color: #0000000b; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+        .logout {
+            font-size: .8em;
+            font-family: 'Oswald', sans-serif;
+            position: relative;
+            right: -10px;
+            overflow: hidden;
+            letter-spacing: 2px;
+            opacity: 0;
+            transition: opacity .45s;
+            -webkit-transition: opacity .35s;
+        }
+
+        .button {
+            display: flex;
+            text-decoration: none;
+            float: right;
+            padding: 12px;
+            color: white;
+            width: 48px;
+            background-color: inherit;
+            transition: width .35s;
+            -webkit-transition: width .35s;
+            overflow: hidden
+        }
+
+            .button:hover {
+                width: 100px;
+            }
+
+                .button:hover .logout {
+                    opacity: .9;
+                }
+
+        .button {
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            height: 45rem;
+            width: 90rem;
+            background: var(--color);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+            backdrop-filter: blur(.4rem);
+            border-radius: 1rem;
+            overflow: hidden;
+            opacity: 1;
+        }
+
+        #wexsi_melumat {
+            display: flex;
+            align-items: center;
+            width: 100%;
+        }
+
+            #wexsi_melumat form {
+                display: grid;
+                row-gap: 15px;
+                width: auto;
+                margin: auto;
+            }
+
+        .form-group {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+            align-items: center;
+        }
+
+            .form-group input {
+                display: flex;
+                font-weight: 600;
+                text-align: center;
+                padding: 13px 20px;
+                border-radius: 9px;
+                font-size: 20px;
+                color: white;
+            }
+
+        label {
+            display: inline-block;
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+        }
+
+        header .user img {
+            padding-bottom: 10px;
+        }
+
+        .table__header .input-group input {
+            color: black;
+        }
+
+        .add {
+            display: block;
+            padding: 0.5rem 1rem;
+            font-size: 20px;
+            color: #fff;
+            background: rgba(255, 255, 255, .2);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+            border-radius: 1rem;
+            transition: all .2s linear;
+        }
+
+            .add:hover {
+                background: rgba(255, 255, 255, .5);
+                color: #555;
+                transition: none;
+            }
+
+        .hidden {
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        .modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            max-width: 30rem;
+            background: var(--color);
+            padding: 2rem 3rem;
+            box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            transition: all 0.5s;
+            backdrop-filter: blur(.4rem);
+            border-radius: 10px;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(4px);
+            z-index: 100;
+            transition: all 0.5s;
+        }
+
+        .modal-top {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .modal__header {
+            font-size: 1.25rem;
+            line-height: 1.5;
+            order: 1;
+        }
+
+        .modal__form {
+            margin: 0 3rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            align-items: center;
+            gap: 1.2rem;
+        }
+
+            .modal__form label {
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+            }
+
+            .modal__form input {
+                font-size: 16px;
+                width: 200px;
+                padding: 0.5rem 1.5rem;
+                border: 1px solid #ddd;
+                border-radius: 0.5rem;
+            }
+
+            .modal__form button {
+                grid-column: 1 / span 2;
+                justify-self: center;
+                margin-top: 1rem;
+                color: black;
+            }
+
+        .btn--close-modal {
+            font-family: inherit;
+            color: inherit;
+            font-size: 3rem;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        @@media ( max-width:1038px) {
+            body {
+                display: flex;
+                flex-direction: column;
+                padding: 5.5rem;
+                padding-left: 5%;
+                padding-right: 5%;
+                row-gap: 2rem;
+                place-items: center;
+            }
+
+            header,
+            .container,
+            .theme-toggler {
+                width: 100%;
+            }
+
+            .theme-toggler {
+                display: flex;
+                justify-content: center;
+            }
+
+                .theme-toggler span {
+                    margin-right: 1.5rem;
+                    margin-left: 1.5rem;
+                }
+
+            .form-group {
+                display: grid;
+                grid-template-columns: 1fr;
+                row-gap: 0;
+                place-items: center;
+            }
+
+                .form-group input {
+                    font-size: 16px;
+                    padding: 10px 0;
+                }
+
+            #wexsi_melumat {
+                row-gap: 0;
+            }
+
+    </style>
+</head>
+<body>
+    <partial name="_Loader" />
+    <div class="navigation">
+
+        <a class="button" asp-controller="Account" asp-action="Signout">
+            <i style="font-size:20px;" class="fa fa-arrow-right-from-bracket"></i>
+
+            <div class="logout">LOGOUT</div>
+
+        </a>
+
+    </div>
+    <main class="table">
+    <section class="table__header">
+        <h1>ADNSU</h1>
+        <div class="input-group">
+            <input type="search" placeholder="Search Data...">
+            <img src="~/images/search.png" alt="">
+        </div>
+    </section>
+      <section class="table__body">
+        <table id="content-table">
+            <thead>
+                <tr>
+                    <th> Ad <span onclick="sortTable(1)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Soyad <span onclick="sortTable(2)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Tarix <span onclick="sortTable(3)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> İcazə <span onclick="sortTable(4)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Vaxt <span onclick="sortTable(5)" class="icon-arrow">&UpArrow;</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var userPermission in Model)
+                {
+                    <tr>
+                        <td>@userPermission.Name</td>
+                        <td> @userPermission.Surname </td>
+                        <td> @userPermission.Date</td>
+                        @{
+                            switch (userPermission.Status)
+                            {
+                                case Status.Gözlənilir:
+                                    {
+                                        <td>
+                                            <p class="status pending">@userPermission.Status</p>
+                                        </td>
+                                        break;
+                                    }
+                                case Status.İcazəVerilməyib:
+                                    {
+                                        <td>
+                                            <p class="status cancelled">@userPermission.Status</p>
+                                        </td>
+                                        break;
+                                    }
+                                case Status.İcazəVerildi:
+                                    {
+                                        <td>
+                                            <p class="status delivered">@userPermission.Status</p>
+                                        </td>
+                                        break;
+                                    }
+                            }
+                        }
+                        <td> <strong> @userPermission.Duration </strong></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </section>
+    </main>
+    <partial name="_Pickup" />
+    <!-- type.js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script>
+               
+const search = document.querySelector('.input-group input'),
+    table_rows = document.querySelectorAll('tbody tr'),
+    table_headings = document.querySelectorAll('thead th');
+
+
+search.addEventListener('input', searchTable);
+function searchTable() {
+    table_rows.forEach((row, i) => {
+        let table_data = row.textContent.toLowerCase(),
+            search_data = search.value.toLowerCase();
+
+        row.classList.toggle('hide', table_data.indexOf(search_data) < 0);
+        row.style.setProperty('--delay', i / 25 + 's');
+    })
+
+    document.querySelectorAll('tbody tr:not(.hide)').forEach((visible_row, i) => {
+        visible_row.style.backgroundColor = (i % 2 == 0) ? 'transparent' : '#0000000b';
+    });
+}
+table_headings.forEach((head, i) => {
+    let sort_asc = true;
+    head.onclick = () => {
+        table_headings.forEach(head => head.classList.remove('active'));
+        head.classList.add('active');
+
+        document.querySelectorAll('td').forEach(td => td.classList.remove('active'));
+        table_rows.forEach(row => {
+            row.querySelectorAll('td')[i].classList.add('active');
+        })
+
+        head.classList.toggle('asc', sort_asc);
+        sort_asc = head.classList.contains('asc') ? false : true;
+
+        sortTable(i, sort_asc);
+    }
+})
+
+
+function sortTable(n) {
+    var table;
+    table = document.getElementById("content-table");
+    var rows, i, x, y, count = 0;
+    var switching = true;
+
+    // Order is set as ascending
+    var direction = "ascending";
+
+    // Run loop until no switching is needed
+    while (switching) {
+        switching = false;
+        var rows = table.rows;
+
+        //Loop to go through all rows
+        for (i = 1; i < (rows.length - 1); i++) {
+            var Switch = false;
+
+            // Fetch 2 elements that need to be compared
+            x = rows[i].getElementsByTagName("td")[n];
+            y = rows[i + 1].getElementsByTagName("td")[n];
+
+            // Check the direction of order
+            if (direction == "ascending") {
+
+                // Check if 2 rows need to be switched
+                if (x.innerText.toLowerCase() > y.innerText.toLowerCase()) {
+                    // If yes, mark Switch as needed and break loop
+                    Switch = true;
+                    break;
+                }
+            } else if (direction == "descending") {
+
+                // Check direction
+                if (x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
+                    // If yes, mark Switch as needed and break loop
+                    Switch = true;
+                    break;
+                }
+            }
+        }
+        if (Switch) {
+            // Function to switch rows and mark switch as completed
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+
+            // Increase count for each switch
+            count++;
+        } else {
+            // Run while loop again for descending order
+            if (count == 0 && direction == "ascending") {
+                direction = "descending";
+                switching = true;
+            }
+        }
+    }
+}
+                  let themeColor = document.querySelectorAll('.theme-toggler span');
+                  themeColor.forEach(color => color.addEventListener('click', () => {
+                  let background = color.style.background;
+                  document.querySelector('body').style.background = background;
+        }));
+    </script>
+    <script>
+    window.addEventListener("load", function() {
+        let icon = document.querySelector(".picture");
+        let body = document.querySelector("body");
+
+          icon.addEventListener("click", function() {
+            body.style.backgroundImage = 'url("../images/image.jpg")';
+            body.style.setProperty('background-repeat', 'no-repeat');
+            body.style.setProperty('background-attachment', 'fixed');
+            body.style.setProperty('background-size', 'cover');
+        });
+    });
+</script>
+</body>
+</html>

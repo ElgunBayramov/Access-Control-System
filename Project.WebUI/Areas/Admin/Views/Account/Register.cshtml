@@ -1,0 +1,262 @@
+﻿@using Project.WebUI.Business.AccountModule
+@model RegisterCommand
+@{
+    ViewData["Title"] = "Register";
+}
+<!-- Start Page Banner Area-->
+<div class="page-banner-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6">
+                <br>
+                <div>
+
+                    <p><a class="button2" asp-controller="users" asp-action="index" style="--c:#E95A49">Home</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="page-banner-img" data-aos="fade-up-left" data-aos-duration="3000" data-aos-once="true">
+                    <img class="profileIcon" src="~/images/people-icon-sign-symbol-design-free-png.webp" width="100px" height="100px" alt="images">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Page Banner Area-->
+
+<div class="my-account-area pt-100 pb-70">
+    <div class="container">
+        <div class="my-account-content register-form">
+            <h2>Register</h2>
+            <p>Welcome back register to your account</p>
+            <form method="post">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="my-account-form">
+                            <div class="from-group">
+                                <input asp-for="Name" type="text" class="form-control" placeholder="Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="my-account-form">
+                            <div class="from-group">
+                                <input asp-for="Surname" type="text" class="form-control" placeholder="Surname">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="my-account-form">
+                            <div class="from-group">
+                                <input asp-for="FinCode" type="text" class="form-control" placeholder="FinCode">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selectionInput">
+                        <div class="form-group row-primary">
+                            <label class="col-sm-2 col-form-label" asp-for="ProfessionId">
+                            </label>
+                            <div class="col-sm-10">
+                                <select class="form-control select2" asp-for="ProfessionId"
+                                        asp-items="@ViewBag.ProfessionId">
+                                </select>
+                                <span asp-validation-for="ProfessionId" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row-primary">
+                            <label class="col-sm-2 col-form-label" asp-for="DepartmentId">
+                            </label>
+                            <div class="col-sm-10">
+                                <select class="form-control select2" asp-for="DepartmentId"
+                                        asp-items="@ViewBag.DepartmentId">
+                                </select>
+                                <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="my-account-form">
+                            <div class="from-group">
+                                <input asp-for="Email" type="email" class="form-control" placeholder="Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12" style="padding:0;">
+                        <div class="col-lg-12">
+                            <div class="my-account-form">
+                                <div class="from-group">
+                                    <input asp-for="Password" type="password" class="form-control"
+                                           placeholder="Password">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12" style="padding:0;">
+                            <div class="col-lg-12">
+                                <div class="my-account-form">
+                                    <div class="from-group">
+                                        <input asp-for="ConfirmPassword" type="password" class="form-control"
+                                               placeholder="Confirm Password">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <button class="button" type="submit" style="--c:#229091">
+                            Register Account<i class="ri-arrow-right-line"></i>
+                        </button>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+    </div>
+<style>
+    .button {
+        margin-left: 13px;
+        font-size: 1rem;
+        cursor: pointer;
+        padding: .1em .6em;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 0 .1em inset var(--c);
+        --_g: linear-gradient(var(--c) 0 0) no-repeat;
+        background: var(--_g) calc(var(--_p,0%) - 100%) 0%, var(--_g) calc(200% - var(--_p,0%)) 0%, var(--_g) calc(var(--_p,0%) - 100%) 100%, var(--_g) calc(200% - var(--_p,0%)) 100%;
+        background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+        outline-offset: .1em;
+        transition: background-size .4s, background-position 0s .4s;
+    }
+
+        .button:hover {
+            --_p: 100%;
+            transition: background-position .4s, background-size 0s;
+        }
+
+        .button:active {
+            box-shadow: 0 0 9e9q inset #0009;
+            background-color: var(--c);
+            color: #fff;
+        }
+
+    .selection > .select2-selection.select2-selection--single {
+        width: 150px;
+    }
+
+    .select2-container {
+        width: auto !important;
+    }
+
+    .button2 {
+        padding: 10px 20px;
+        border-radius: 10px;
+        color: black;
+        box-shadow: 0 0 0 .1em inset var(--c);
+        --_g: linear-gradient(var(--c) 0 0) no-repeat;
+        background: var(--_g) calc(var(--_p,0%) - 100%) 0%, var(--_g) calc(200% - var(--_p,0%)) 0%, var(--_g) calc(var(--_p,0%) - 100%) 100%, var(--_g) calc(200% - var(--_p,0%)) 100%;
+        background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+        outline-offset: .1em;
+        transition: background-size .4s, background-position 0s .4s;
+    }
+
+        .button2:hover {
+            --_p: 100%;
+            color: black;
+            transition: background-position .4s, background-size 0s;
+        }
+
+        .button2:active {
+            box-shadow: 0 0 9e9q inset #0009;
+            background-color: var(--c);
+            color: black;
+        }
+
+
+    .from-group {
+        margin-bottom: 10px;
+    }
+
+    .form-group .row-primary {
+        width: 120px;
+    }
+
+    .default-btn {
+        border-color: darkcyan;
+        width: 180px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: cornflowerblue;
+        border-style: outset;
+        color: aliceblue;
+    }
+
+        .default-btn:hover {
+            background-color: darkorchid;
+            box-shadow: 1px 3px #888888;
+        }
+
+    .form-group .row-primary {
+        display: flex;
+    }
+
+    .selectionInput {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-group .row-primary {
+        width: 900px;
+    }
+
+    .single-page-banner-content {
+        width: 65px;
+        height: 40px;
+        padding: 5px 0px;
+        background-color: cornflowerblue;
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        border-radius: 5px;
+    }
+
+        .single-page-banner-content:hover {
+            background-color: darkorchid;
+            box-shadow: 1px 3px #888888;
+        }
+
+</style>
+@section addcss{
+<link rel="stylesheet" href="~/libs/select2/css/select2.css">
+}
+@section addjs{
+<script src="~/libs/select2/js/select2.js"></script>
+<script src="~/libs/ckeditor5/ckeditor.min.js"></script>
+<script>
+    $(document).ready(function() {
+        ClassicEditor
+    .create(document.querySelector('#editor'))
+    .catch(error=>{
+        console.error(error);
+    });
+    $('.select2').select2();
+    });
+
+</script>
+}
+<script>
+    $(document).ready(function () {
+        // Button click event handler
+        $('#openModalBtn').click(function () {
+            // Show the modal
+            $('#myModal').show();
+        });
+
+        // Close button click event handler
+        $('.close').click(function () {
+            // Hide the modal
+            $('#myModal').hide();
+        });
+    });
+</script>
+

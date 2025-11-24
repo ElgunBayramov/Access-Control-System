@@ -1,0 +1,107 @@
+﻿@using Project.WebUI.Models.ViewModels
+@model PagedViewModel<Profession>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Page-header start -->
+<div class="page-header">
+    <div class="row align-items-end">
+        <div class="col-lg-8">
+        </div>
+    </div>
+</div>
+<div class="page-body">
+    <!-- Basic table card start -->
+    <div class="card">
+        <div class="card-block table-border-style">
+             <div class="table-responsive" id="dynamic-body">
+             <partial name="_ListBody" model="@Model" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+ .blog-pagination{
+  display: flex;
+  flex-direction: row;
+}
+.blog-pagination  a{
+  display: inline-block;
+  padding:10px;
+  border:1px solid #ddd;  
+  color:#fe0000;
+}
+
+.blog-pagination li.active a{
+  background-color: #fe0000;
+  color:#ffffff;
+}
+.blog-pagination li{
+  list-style:none;
+}
+</style>
+
+
+  @section addjs{ <script src="~/libs/sweetalert/sweetalert.min.js"></script>
+    <script src="~/libs/toastr.js/toastr.min.js"></script>
+    <script>
+        function removeEntity(e, id, name) {
+            e.preventDefault();
+            swal({
+                title: "Diqqət!",
+                text: `${name} - silinsinmi?`,
+                icon: "warning",
+                buttons: ['Xeyr', 'Bəli'],
+                dangerMode: true,
+            })
+                .then((willDelete) => {
+                    if (willDelete) {
+                        const pageState = $('.blog-pagination').data();
+                        $.ajax({
+                            url: `@Url.Action("Remove")`,
+                            data: {
+                                id: id,
+                                pageIndex: pageState?.page,
+                                pageSize:  pageState?.size
+                            },
+                            contentType:'application/x-www-form-urlencoded',
+                            type: "POST",
+                            success: function(response, statusText, xhr) {
+                                if (/[<>]+/g.test(xhr.responseText) == true
+                                    || xhr.responseText.replace(/(\r|\n|\r\n|\s)/g, '').length == 0) {
+                                    toastr.success("Müvəffəqiyyətlə silindi!","Uğur");
+                                    $('#dynamic-body').html(xhr.responseText);
+                                }
+                                else {
+                                    toastr.error(response.message,"Xəta");
+                                }
+                            },
+                            error: function(response) {
+                                toastr.error('Sistem xətası.Biraz sonra yenidən yoxlayın', "Xəta!")
+                                console.warn(response);
+                            }
+                        });
+                    }
+                });
+        }
+function goPage(page, size) {
+
+            $.ajax({
+                type: 'post',
+                data: {
+                    pageIndex: page,
+                    pageSize: size
+                },
+                success: function(response) {
+                    $('#dynamic-body').html(response);
+                },
+                error: function(resp) {
+                    console.log(resp);
+                }
+            });
+
+        }
+    </script>
+}

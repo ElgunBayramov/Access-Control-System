@@ -1,0 +1,517 @@
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\appsettings.json
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.exe
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.deps.json
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.runtimeconfig.json
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.runtimeconfig.dev.json
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.pdb
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.AssemblyInfo.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\scopedcss\bundle\Project.WebUI.styles.css
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\Project.WebUI.StaticWebAssets.Manifest.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\Project.WebUI.StaticWebAssets.Pack.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.Project.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.build.Project.WebUI.props
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Project.WebUI.props
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Project.WebUI.props
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorTargetAssemblyInfo.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.CopyComplete
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\refint\Project.WebUI.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.pdb
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.genruntimeconfig.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\ref\Project.WebUI.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.Views.dll
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.Views.pdb
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorAssemblyInfo.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorAssemblyInfo.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.TagHelpers.input.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.TagHelpers.output.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorCoreGenerate.cache
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorTargetAssemblyInfo.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.Views.pdb
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\HP\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\appsettings.json
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.exe
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.deps.json
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.runtimeconfig.json
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.Views.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.Views.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\MediatR.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\scopedcss\bundle\Project.WebUI.styles.css
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\Project.WebUI.StaticWebAssets.Manifest.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.TagHelpers.input.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.TagHelpers.output.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorCoreGenerate.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\EmailConfirmation.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Register.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Create.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Edit.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Permissions\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Permissions\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Permissions\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Create.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Edit.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Preloader.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Sidebar.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Account\Signin.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Loader.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Pickup.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorTargetAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorTargetAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.Views.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\refint\Project.WebUI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.pdb
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\ref\Project.WebUI.dll
+C:\Users\LENOVO\Desktop\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Home\Watch.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\appsettings.json
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.exe
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.deps.json
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.runtimeconfig.json
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.runtimeconfig.dev.json
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.Views.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Project.WebUI.Views.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\MediatR.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\MediatR.Contracts.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.AssemblyReference.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.AssemblyInfo.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.sourcelink.json
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.TagHelpers.input.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.TagHelpers.output.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorCoreGenerate.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\EmailConfirmation.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Account\Register.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Create.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Edit.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Departments\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Permissions\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Permissions\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Permissions\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Create.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Edit.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Professions\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Preloader.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Shared\_Sidebar.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Details.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\Users\_ListBody.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Account\Signin.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Home\Watch.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Loader.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Pickup.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorTargetAssemblyInfo.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.RazorTargetAssemblyInfo.cs
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.Views.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\scopedcss\bundle\Project.WebUI.styles.css
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\Project.WebUI.StaticWebAssets.Manifest.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\Project.WebUI.StaticWebAssets.Pack.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.Project.WebUI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.build.Project.WebUI.props
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Project.WebUI.props
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Project.WebUI.props
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project..7C0A703D.Up2Date
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\refint\Project.WebUI.dll
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.pdb
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\Project.WebUI.genruntimeconfig.cache
+C:\Users\LENOVO\Desktop\MyWebsites and Apps\Project-685.20\Project.WebUI\obj\Debug\net5.0\ref\Project.WebUI.dll

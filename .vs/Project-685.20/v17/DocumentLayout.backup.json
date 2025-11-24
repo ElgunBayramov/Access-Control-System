@@ -1,0 +1,1137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\accountmodule\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\accountmodule\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\providers\\appclaimprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\providers\\appclaimprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\membership\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\membership\\projectuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\membership\\projectuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\membership\\projectuserrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\extensions\\cryptoextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\extensions\\cryptoextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\extensions\\httpextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\extensions\\httpextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\extensions\\identityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\extensions\\identityextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\extensions\\validateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\extensions\\validateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\extensions\\markupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\extensions\\markupextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\appcode\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\appcode\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\wwwroot\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\accountmodule\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\accountmodule\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\accountmodule\\multihomecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\accountmodule\\multihomecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\users\\_listbody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\users\\_listbody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\users\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\professions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\professions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\viewmodels\\pagedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\viewmodels\\pagedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\permissions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\permissions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\direction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\profession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\profession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\permissions\\_listbody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\permissions\\_listbody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\migrations\\20230709182157_newchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\migrations\\20230709182157_newchanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\views\\home\\watch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\views\\home\\watch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\permissionmodule\\permissionremovecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\permissionmodule\\permissionremovecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\permissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\permissions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\permissionmodule\\permissionsallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\permissionmodule\\permissionsallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\professions\\_listbody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\professions\\_listbody.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\permissionmodule\\permissionsinglequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\permissionmodule\\permissionsinglequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\professionmodule\\professionremovecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\professionmodule\\professionremovecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\permissionmodule\\permissionpagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\permissionmodule\\permissionpagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\controllers\\professionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\controllers\\professionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\professionmodule\\professionpagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\professionmodule\\professionpagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\usermodule\\userspagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\usermodule\\userspagedquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\views\\shared\\_pickup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\views\\shared\\_pickup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\professionmodule\\professionsallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\professionmodule\\professionsallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\professionmodule\\professionsinglequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\professionmodule\\professionsinglequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\shared\\_preloader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\shared\\_preloader.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\professions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\professions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\professions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\professions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\professions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\professions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\departments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\departments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\departments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\areas\\admin\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\areas\\admin\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\membership\\projectuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\membership\\projectuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\entities\\membership\\projectuserclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\entities\\membership\\projectuserclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\models\\datacontexts\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\models\\datacontexts\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\departmentmodule\\departmentsinglequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\departmentmodule\\departmentsinglequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|c:\\users\\lenovo\\desktop\\mywebsites and apps\\project-685.20\\project.webui\\business\\departmentmodule\\departmentsallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D17E7C5-39C6-4555-ABE6-EC44DB600D9A}|Project.WebUI\\Project.WebUI.csproj|solutionrelative:project.webui\\business\\departmentmodule\\departmentsallquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project.WebUI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Project.WebUI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectUser.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUser.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUser.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUser.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppClaimProvider.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Providers\\AppClaimProvider.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Providers\\AppClaimProvider.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Providers\\AppClaimProvider.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Providers\\AppClaimProvider.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Program.cs",
+              "RelativeToolTip": "Project.WebUI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Startup.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Startup.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Startup.cs",
+              "RelativeToolTip": "Project.WebUI\\Startup.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowHMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SigninCommand.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\AccountModule\\SigninCommand.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\AccountModule\\SigninCommand.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\AccountModule\\SigninCommand.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\AccountModule\\SigninCommand.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectUserRole.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUserRole.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUserRole.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUserRole.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\appsettings.json",
+              "RelativeDocumentMoniker": "Project.WebUI\\appsettings.json",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\appsettings.json",
+              "RelativeToolTip": "Project.WebUI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-07-09T12:31:40.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CryptoExtension.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\CryptoExtension.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Extensions\\CryptoExtension.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\CryptoExtension.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Extensions\\CryptoExtension.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwE0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IdentityExtension.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\IdentityExtension.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Extensions\\IdentityExtension.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\IdentityExtension.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Extensions\\IdentityExtension.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-21T12:30:17.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MarkupExtension.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\MarkupExtension.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Extensions\\MarkupExtension.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\MarkupExtension.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Extensions\\MarkupExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HttpExtension.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\HttpExtension.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Extensions\\HttpExtension.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\HttpExtension.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Extensions\\HttpExtension.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-21T12:30:13.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ValidateExtension.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\ValidateExtension.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Extensions\\ValidateExtension.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Extensions\\ValidateExtension.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Extensions\\ValidateExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-21T12:30:22.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Services\\TokenService.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Services\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\AppCode\\Services\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\AppCode\\Services\\ITokenService.cs",
+              "RelativeToolTip": "Project.WebUI\\AppCode\\Services\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\wwwroot\\js\\main.js",
+              "RelativeDocumentMoniker": "Project.WebUI\\wwwroot\\js\\main.js",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\wwwroot\\js\\main.js",
+              "RelativeToolTip": "Project.WebUI\\wwwroot\\js\\main.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2023-07-09T17:18:31.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "Project.WebUI\\wwwroot\\css\\main.css",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "Project.WebUI\\wwwroot\\css\\main.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2023-07-09T17:16:19.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\AccountModule\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\AccountModule\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\AccountModule\\RegisterCommand.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\AccountModule\\RegisterCommand.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAkwDwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Users\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:47:52.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MultiHomeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\AccountModule\\MultiHomeCommand.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\AccountModule\\MultiHomeCommand.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\AccountModule\\MultiHomeCommand.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\AccountModule\\MultiHomeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-21T12:30:35.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Index.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Index.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAiwEoAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Controllers\\PermissionsController.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAowFYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T13:56:30.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PagedViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\ViewModels\\PagedViewModel.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\ViewModels\\PagedViewModel.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\ViewModels\\PagedViewModel.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\ViewModels\\PagedViewModel.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAuwEsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Profession.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Profession.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Profession.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Profession.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Profession.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20230709182157_newChanges.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Migrations\\20230709182157_newChanges.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Migrations\\20230709182157_newChanges.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Migrations\\20230709182157_newChanges.cs",
+              "RelativeToolTip": "Project.WebUI\\Migrations\\20230709182157_newChanges.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T18:22:03.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ListBody.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Users\\_ListBody.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Users\\_ListBody.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Users\\_ListBody.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Users\\_ListBody.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAABhwBoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T19:11:15.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "_ListBody.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\_ListBody.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\_ListBody.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\_ListBody.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\_ListBody.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T21:00:09.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Details.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Details.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Details.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAABhwEwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:40:05.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Watch.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Home\\Watch.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Views\\Home\\Watch.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Home\\Watch.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Views\\Home\\Watch.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBpwBwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PermissionsAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionsAllQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\PermissionModule\\PermissionsAllQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionsAllQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\PermissionModule\\PermissionsAllQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T13:57:08.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Direction.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Direction.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Direction.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Direction.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Direction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-10T06:39:30.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Department.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-10T06:44:40.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ListBody.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Permissions\\_ListBody.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Permissions\\_ListBody.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Permissions\\_ListBody.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Permissions\\_ListBody.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAIBpwBMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:39:56.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PermissionSingleQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionSingleQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\PermissionModule\\PermissionSingleQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionSingleQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\PermissionModule\\PermissionSingleQuery.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T14:01:11.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PermissionRemoveCommand.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionRemoveCommand.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\PermissionModule\\PermissionRemoveCommand.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionRemoveCommand.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\PermissionModule\\PermissionRemoveCommand.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T17:45:16.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Permissions\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBpwBcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProfessionRemoveCommand.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionRemoveCommand.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\ProfessionModule\\ProfessionRemoveCommand.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionRemoveCommand.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\ProfessionModule\\ProfessionRemoveCommand.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T18:07:07.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "PermissionPagedQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionPagedQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\PermissionModule\\PermissionPagedQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\PermissionModule\\PermissionPagedQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\PermissionModule\\PermissionPagedQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T18:10:33.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ProfessionsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\ProfessionsController.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Controllers\\ProfessionsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\ProfessionsController.cs",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Controllers\\ProfessionsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T18:22:54.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UsersPagedQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\UserModule\\UsersPagedQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\UserModule\\UsersPagedQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\UserModule\\UsersPagedQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\UserModule\\UsersPagedQuery.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAiwCsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T19:12:43.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProfessionPagedQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionPagedQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\ProfessionModule\\ProfessionPagedQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionPagedQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\ProfessionModule\\ProfessionPagedQuery.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T19:13:30.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_Pickup.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Shared\\_Pickup.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Views\\Shared\\_Pickup.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Shared\\_Pickup.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Views\\Shared\\_Pickup.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T17:15:23.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABYBAAAAAAAAAABxwEYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T17:18:03.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAALUAAAAAAAAAAABxwIMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T14:08:11.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProfessionsAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionsAllQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\ProfessionModule\\ProfessionsAllQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionsAllQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\ProfessionModule\\ProfessionsAllQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T13:58:13.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Permission.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Permission.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Permission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T17:44:28.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ProfessionSingleQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionSingleQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\ProfessionModule\\ProfessionSingleQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\ProfessionModule\\ProfessionSingleQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\ProfessionModule\\ProfessionSingleQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T18:08:05.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Details.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Details.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBpwBwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:44:28.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Edit.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAACBjwA8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:45:07.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Create.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Professions\\Create.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Professions\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:44:14.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "_Preloader.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Preloader.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Preloader.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Preloader.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAACBzwEYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Index.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:31:24.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Edit.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:43:32.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Details.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Details.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:42:49.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Create.cshtml",
+              "RelativeDocumentMoniker": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Areas\\Admin\\Views\\Departments\\Create.cshtml",
+              "RelativeToolTip": "Project.WebUI\\Areas\\Admin\\Views\\Departments\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-07-09T12:41:44.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ProjectUserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUserLogin.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUserLogin.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUserLogin.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "DepartmentSingleQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\DepartmentModule\\DepartmentSingleQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\DepartmentModule\\DepartmentSingleQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\DepartmentModule\\DepartmentSingleQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\DepartmentModule\\DepartmentSingleQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\DataContexts\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\DataContexts\\ProjectDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\DataContexts\\ProjectDbContext.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\DataContexts\\ProjectDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ProjectUserClaim.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUserClaim.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUserClaim.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Models\\Entities\\Membership\\ProjectUserClaim.cs",
+              "RelativeToolTip": "Project.WebUI\\Models\\Entities\\Membership\\ProjectUserClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "DepartmentsAllQuery.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\DepartmentModule\\DepartmentsAllQuery.cs",
+              "RelativeDocumentMoniker": "Project.WebUI\\Business\\DepartmentModule\\DepartmentsAllQuery.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\MyWebsites and Apps\\Project-685.20\\Project.WebUI\\Business\\DepartmentModule\\DepartmentsAllQuery.cs",
+              "RelativeToolTip": "Project.WebUI\\Business\\DepartmentModule\\DepartmentsAllQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-07-09T12:31:24.549Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
