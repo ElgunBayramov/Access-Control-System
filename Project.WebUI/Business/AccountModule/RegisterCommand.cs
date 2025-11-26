@@ -117,7 +117,7 @@ namespace Project.WebUI.Business.AccountModule
 
                 await emailService.SendEmailAsync(user.Email, 
                     "Registration",
-                    $"Sizin qeydiyyatınız uğurla tamamlanmışdır😊");
+                    $"Hello,\r\n\r\nYour registration has been successfully completed. You can now log in to your account and start using the system without any issues.\r\n\r\nIf you experience any difficulties, feel free to contact us.\r\n\r\nBest regards,\r\nSupport Team😊");
 
                 return user;
             }
