@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="~/css/style.css">
     <link rel="icon" type="image/png" href="https://seeklogo.com/images/T/the-project-logo-6082FFB8D5-seeklogo.com.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400">
-    <title>Layihə-685.20</title>
+    <title>Access Control System</title>
     <script src="https://kit.fontawesome.com/dbccfca02d.js" crossorigin="anonymous"></script>
     <style>
 
@@ -56,8 +57,8 @@
     justify-content: space-between;
     gap: 20px;
     padding: 5.5rem;
-     background-image: url('../images/image.jpg'); 
-     /*background-color: #0000000b; */
+            background-image: url('../images/technology-security-concept-modern-safety-digital-background-lock-protection-system-cyber-security-information-network-184838860.jpg');
+            /*background-color: #0000000b; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -280,13 +281,20 @@
 </div>
     <header>
         <div class="user">
-            <img src="~/images/Profile-Icon.png" alt="">
+            <div class="user">
+                <div class="user">
+                    <img src="@ViewBag.CurrentUserImage"
+                         alt="Profile Image" width="50" height="50"
+                         style="border-radius:50%; object-fit:cover;">
+                </div>
+
+            </div>
         </div>
 
         <nav class="navbar">
             <ul>
-                <li><a asp-action="index">Şəxsi Məlumat</a></li>
-                <li><a asp-action="about">Tarixçə</a></li>
+                <li><a asp-action="index">Personal Information</a></li>
+                <li><a asp-action="about">Records</a></li>
             </ul>
         </nav>
 

@@ -9,7 +9,7 @@ namespace Project.WebUI.Models.Entities
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Profession { get; set; }
-        public Status Status { get; set; } = Status.Gözlənilir;
+        public Status Status { get; set; } = Status.Pending;
         public DateTime? Date { get; set; }
         public DateTime? DeletedDate { get; set; }
         public string Duration { get; set; }

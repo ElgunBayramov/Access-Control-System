@@ -56,12 +56,12 @@ namespace Project.WebUI.Areas.Admin.Controllers
                 {
                     case "Accept":
                         {
-                            user.Status = Status.İcazəVerildi;
+                            user.Status = Status.Approved;
                             break;
                         }
                     case "Refuse":
                         {
-                            user.Status = Status.İcazəVerilməyib;
+                            user.Status = Status.Rejected;
                             break;
                         }
                     default:

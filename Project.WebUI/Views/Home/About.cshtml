@@ -7,7 +7,7 @@
 <main class="table">
     <section class="table__header">
         <h1>A.C SYSTEM</h1>
-        <a class="add" href="#">Əlavə Et</a>
+        <a class="add" href="#">Add</a>
         <div class="input-group">
             <input type="search" placeholder="Search Data...">
             <img src="~/images/search.png" alt="">
@@ -17,11 +17,11 @@
         <table id="content-table">
             <thead>
                 <tr>
-                    <th> Ad <span onclick="sortTable(1)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> Soyad <span onclick="sortTable(2)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> Tarix <span onclick="sortTable(3)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> İcazə <span onclick="sortTable(4)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> Vaxt <span onclick="sortTable(5)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Firstname <span onclick="sortTable(1)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Lastname <span onclick="sortTable(2)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Date <span onclick="sortTable(3)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Permission <span onclick="sortTable(4)" class="icon-arrow">&UpArrow;</span></th>
+                    <th> Date <span onclick="sortTable(5)" class="icon-arrow">&UpArrow;</span></th>
                 </tr>
             </thead>
             <tbody>
@@ -34,21 +34,21 @@
                         @{
                             switch (userPermission.Status)
                             {
-                                case Status.Gözlənilir:
+                                case Status.Pending:
                                     {
                                         <td>
                                             <p class="status pending">@userPermission.Status</p>
                                         </td>
                                         break;
                                     }
-                                case Status.İcazəVerilməyib:
+                                case Status.Rejected:
                                     {
                                         <td>
                                             <p class="status cancelled">@userPermission.Status</p>
                                         </td>
                                         break;
                                     }
-                                case Status.İcazəVerildi:
+                                case Status.Approved:
                                     {
                                         <td>
                                             <p class="status delivered">@userPermission.Status</p>
@@ -68,26 +68,26 @@
     <div class="modal-top">
         <button class="btn--close-modal">&times;</button>
         <h2 class="modal__header">
-            Yeni Icazə
+            New Permission
         </h2>
     </div>
     <form asp-action="Index" asp-controller="Home" method="post" class="modal__form" id="form">
-        <label>Ad:</label>
+        <label>Firstname:</label>
         <input placeholder="Name?" asp-for="@Model.CreateCommand.Name" type="text" />
-        <label>Soyad:</label>
+        <label>Lastname:</label>
         <input placeholder="Surname?" asp-for="@Model.CreateCommand.Surname" type="text" />
-        <label>Vəzifə:</label>
+        <label>Position:</label>
         <input placeholder="Select the profession" asp-for="@Model.CreateCommand.Profession" type="text" />
-        <label>Gəliş səbəbi:</label>
+        <label>Reason for arrival:</label>
         <input placeholder="What is your reason?" asp-for="@Model.CreateCommand.Reason" type="text" />
-        <label>Gəlmə tarixi:</label>
+        <label>Arrival date:</label>
         <input asp-for="@Model.CreateCommand.Date" type="datetime-local" />
-        <label>Keçirəcəyi vaxt:</label>
+        <label>Time to spend:</label>
         <input placeholder="Duration" asp-for="@Model.CreateCommand.Duration" type="text" />
 
         @* <label>Hansı auditoriya:</label>
             <input type="text" />*@
-        <button type="submit" class="btn">Göndər &rarr;</button>
+        <button type="submit" class="btn">Submit &rarr;</button>
     </form>
 </div>
 <div class="overlay hidden"></div>
@@ -133,7 +133,7 @@
          let body = document.querySelector("body");
 
            icon.addEventListener("click", function() {
-             body.style.backgroundImage = 'url("../images/image.jpg")';
+             body.style.backgroundImage = 'url("../images/technology-security-concept-modern-safety-digital-background-lock-protection-system-cyber-security-information-network-184838860.jpg")';
              body.style.setProperty('background-repeat', 'no-repeat');
              body.style.setProperty('background-attachment', 'fixed');
              body.style.setProperty('background-size', 'cover');

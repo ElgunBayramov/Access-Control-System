@@ -34,7 +34,7 @@ namespace Project.WebUI.Business.PermissionModule
             public async Task<PagedViewModel<Permission>> Handle(PermissionPagedQuery request, CancellationToken cancellationToken)
             {
                 var query = db.Permissions
-                 .Where(m => m.DeletedDate == null && m.Status == Status.Gözlənilir)
+                 .Where(m => m.DeletedDate == null && m.Status == Status.Pending)
                  .AsQueryable();
 
                 query = query.OrderByDescending(m => m.Id);

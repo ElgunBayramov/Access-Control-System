@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="~/css/style.css">
     <link rel="icon" type="image/png" href="https://seeklogo.com/images/T/the-project-logo-6082FFB8D5-seeklogo.com.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:400">
-    <title>A.C SYSTEM</title>
+    <title>Access Control System</title>
     <script src="https://kit.fontawesome.com/dbccfca02d.js" crossorigin="anonymous"></script>
     <style>
          body {
@@ -23,8 +23,8 @@
     justify-content: space-between;
     gap: 20px;
     padding: 5.5rem;
-     background-image: url('../images/image.jpg'); 
-     /*background-color: #0000000b; */
+            background-image: url('../images/technology-security-concept-modern-safety-digital-background-lock-protection-system-cyber-security-information-network-184838860.jpg');
+            /*background-color: #0000000b; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -310,21 +310,21 @@
                         @{
                             switch (userPermission.Status)
                             {
-                                case Status.Gözlənilir:
+                                case Status.Pending:
                                     {
                                         <td>
                                             <p class="status pending">@userPermission.Status</p>
                                         </td>
                                         break;
                                     }
-                                case Status.İcazəVerilməyib:
+                                case Status.Rejected:
                                     {
                                         <td>
                                             <p class="status cancelled">@userPermission.Status</p>
                                         </td>
                                         break;
                                     }
-                                case Status.İcazəVerildi:
+                                case Status.Approved:
                                     {
                                         <td>
                                             <p class="status delivered">@userPermission.Status</p>
@@ -452,7 +452,7 @@ function sortTable(n) {
         let body = document.querySelector("body");
 
           icon.addEventListener("click", function() {
-            body.style.backgroundImage = 'url("../images/image.jpg")';
+                body.style.backgroundImage = 'url("../images/technology-security-concept-modern-safety-digital-background-lock-protection-system-cyber-security-information-network-184838860.jpg")';
             body.style.setProperty('background-repeat', 'no-repeat');
             body.style.setProperty('background-attachment', 'fixed');
             body.style.setProperty('background-size', 'cover');

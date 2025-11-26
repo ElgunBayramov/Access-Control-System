@@ -1,9 +1,12 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Project.WebUI.AppCode.Extensions;
 using Project.WebUI.AppCode.Services;
 using Project.WebUI.Models.Entities.Membership;
 using System;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -18,6 +21,7 @@ namespace Project.WebUI.Business.AccountModule
         public string ConfirmPassword { get; set; }
         public DateTime RegisterDate { get; set; }
         public string FinCode { get; set; }
+        public IFormFile Image { get; set; }
         public int ProfessionId { get; set; }
         public int DepartmentId { get; set; }
 
@@ -61,7 +65,22 @@ namespace Project.WebUI.Business.AccountModule
                     DepartmentId = request.DepartmentId,
                     UserName = $"{request.Name}-{Guid.NewGuid()}".ToLower()
                 };
+                if (request.Image != null && request.Image.Length > 0)
+                {
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(request.Image.FileName);
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads/images");
 
+                    if (!Directory.Exists(uploadsFolder))
+                        Directory.CreateDirectory(uploadsFolder);
+
+                    var filePath = Path.Combine(uploadsFolder, fileName);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await request.Image.CopyToAsync(stream);
+                    }
+
+                    user.ImagePath = "/uploads/images/" + fileName;
+                }
                 //var countOfUserName = await userManager.Users.CountAsync(u => u.UserName.StartsWith(user.UserName)
                 //               , cancellationToken);
 

@@ -29,7 +29,7 @@
         <div class="my-account-content register-form">
             <h2>Register</h2>
             <p>Welcome back register to your account</p>
-            <form method="post">
+            <form method="post" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="my-account-form">
@@ -50,6 +50,14 @@
                             <div class="from-group">
                                 <input asp-for="FinCode" type="text" class="form-control" placeholder="FinCode">
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <label class="col-sm-2 col-form-label" asp-for="Image">
+                        </label>
+                        <div class="col-sm-10">
+                            <input asp-for="Image" type="file" class="form-control" />
+                            <span asp-validation-for="Image" class="text-danger"></span>
                         </div>
                     </div>
                     <div class="selectionInput">

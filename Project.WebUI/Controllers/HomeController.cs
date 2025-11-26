@@ -33,8 +33,10 @@ namespace Project.WebUI.Controllers
                 string userId = currentUser.FindFirstValue(ClaimTypes.NameIdentifier);
                 int.TryParse(userId, out int UserId);
                 user = _dbContext.Users.Find(UserId);
+            ViewBag.CurrentUserImage = !string.IsNullOrEmpty(user.ImagePath)
+     ? user.ImagePath
+     : "/images/Profile-Icon.png";
             }
-
             var role = _dbContext.UserRoles
                 .Where(y => y.UserId == user.Id)
                 .Select(r => r.RoleId).FirstOrDefault();
@@ -70,7 +72,7 @@ namespace Project.WebUI.Controllers
             }
 
             model.CreateCommand.ProjectUserId = user.Id;
-            model.CreateCommand.Status = Status.Gözlənilir;
+            model.CreateCommand.Status = Status.Pending;
             var response = await mediator.Send(model.CreateCommand);
 
             return RedirectToAction("About");
@@ -88,6 +90,9 @@ namespace Project.WebUI.Controllers
                 string userId = currentUser.FindFirstValue(ClaimTypes.NameIdentifier);
                 int.TryParse(userId, out int UserId);
                 user = _dbContext.Users.Find(UserId);
+                ViewBag.CurrentUserImage = !string.IsNullOrEmpty(user.ImagePath)
+     ? user.ImagePath
+     : "/images/Profile-Icon.png";
             }
 
             var permissions = _dbContext.Permissions

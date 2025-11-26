@@ -2,8 +2,8 @@
 {
     public enum Status
     {
-        Gözlənilir = 1,
-        İcazəVerilməyib,
-        İcazəVerildi
+        Pending = 1,
+        Rejected,
+        Approved
     }
 }

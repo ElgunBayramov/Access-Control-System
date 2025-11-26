@@ -32,7 +32,7 @@ namespace Project.WebUI.Areas.Admin.Controllers
         public async Task<IActionResult> Register(RegisterCommand command)
         {
             var response = await mediator.Send(command);
-
+       
             if (!ModelState.IsValid)
             {
                 return View(command);
