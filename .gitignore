@@ -50,3 +50,4 @@ node_modules/
 
 # Other
 Properties/launchSettings.json
+**/appsettings.Development.json
