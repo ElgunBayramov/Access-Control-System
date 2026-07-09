@@ -1,108 +1,284 @@
 ﻿@using Project.WebUI.Models.ViewModels
+@using Project.WebUI.Models.Entities
 @model PagedViewModel<Permission>
 @{
     ViewData["Title"] = "Index";
 }
 
-<!-- Page-header start -->
 <div class="page-header">
-    <div class="row align-items-end">
-        <div class="col-lg-8">
-        </div>
+    <div>
+        <h1><i class="fa fa-id-card"></i>Permissions</h1>
+        <div class="page-breadcrumb">Admin &rsaquo; <span>Access Requests</span></div>
     </div>
 </div>
-<div class="page-body">
-    <!-- Basic table card start -->
-    <div class="card">
-        <div class="card-block table-border-style">
-             <div class="table-responsive" id="dynamic-body">
-             <partial name="_ListBody" model="@Model" />
-            </div>
-        </div>
-    </div>
-</div>
-<style>
-  .blog-pagination{
-  display: flex;
-  flex-direction: row;
-}
-.blog-pagination  a{
-  display: inline-block;
-  padding:10px;
-  border:1px solid #ddd;  
-  color:#fe0000;
-}
 
-.blog-pagination li.active a{
-  background-color: #fe0000;
-  color:#ffffff;
-}
-.blog-pagination li{
-  list-style:none;
-}
+<div class="ac-card">
+    <div class="ac-card-header">
+        <h4>Pending Access Requests</h4>
+    </div>
+    <div class="ac-card-body" style="padding:0; overflow-x:auto;">
+        <div id="dynamic-body">
+            <partial name="_ListBody" model="@Model" />
+        </div>
+    </div>
+</div>
+
+<!-- ── Reject Modal ── -->
+<div class="ac-modal-overlay hidden" id="rejectOverlay"></div>
+
+<div class="ac-modal hidden" id="rejectModal">
+    <!-- corner accents -->
+    <span class="ac-modal-corner tl"></span>
+    <span class="ac-modal-corner tr"></span>
+    <span class="ac-modal-corner bl"></span>
+    <span class="ac-modal-corner br"></span>
+
+    <div class="ac-modal-header">
+        <div class="ac-modal-title">
+            <i class="fa fa-triangle-exclamation"></i>
+            // REJECT REQUEST
+        </div>
+        <button class="ac-modal-close" id="closeRejectModal">&times;</button>
+    </div>
+
+    <div class="ac-modal-body">
+        <p class="ac-modal-desc">
+            Provide a reason for rejection. This will be sent to the applicant via email.
+        </p>
+        <label class="ac-label" style="margin-bottom:6px; display:block;">
+            // REJECTION_REASON
+        </label>
+        <textarea id="rejectReason"
+                  class="ac-input ac-textarea"
+                  rows="4"
+                  placeholder="Enter rejection reason..."></textarea>
+    </div>
+
+    <div class="ac-modal-footer">
+        <button class="btn-ac btn-ac-primary" id="cancelRejectModal">
+            <i class="fa fa-xmark"></i> Cancel
+        </button>
+        <button class="btn-ac btn-ac-danger" id="confirmReject">
+            <i class="fa fa-ban"></i> Confirm Reject
+        </button>
+    </div>
+</div>
+
+<style>
+    /* Overlay */
+    .ac-modal-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,.72);
+        backdrop-filter: blur(4px);
+        z-index: 1050;
+        transition: opacity .25s;
+    }
+
+        .ac-modal-overlay.hidden {
+            display: none;
+        }
+
+    /* Modal box */
+    .ac-modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 420px;
+        max-width: calc(100vw - 2rem);
+        background: #07111d;
+        border: 1px solid rgba(0,255,180,.4);
+        border-radius: 4px;
+        z-index: 1051;
+        animation: fadein .25s ease;
+    }
+
+        .ac-modal.hidden {
+            display: none;
+        }
+
+    /* Corner brackets */
+    .ac-modal-corner {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border-color: var(--green);
+        border-style: solid;
+        border-width: 0;
+    }
+
+        .ac-modal-corner.tl {
+            top: -1px;
+            left: -1px;
+            border-top-width: 2px;
+            border-left-width: 2px;
+        }
+
+        .ac-modal-corner.tr {
+            top: -1px;
+            right: -1px;
+            border-top-width: 2px;
+            border-right-width: 2px;
+        }
+
+        .ac-modal-corner.bl {
+            bottom: -1px;
+            left: -1px;
+            border-bottom-width: 2px;
+            border-left-width: 2px;
+        }
+
+        .ac-modal-corner.br {
+            bottom: -1px;
+            right: -1px;
+            border-bottom-width: 2px;
+            border-right-width: 2px;
+        }
+
+    /* Header */
+    .ac-modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 18px;
+        border-bottom: 1px solid rgba(0,255,180,.15);
+        background: rgba(0,255,180,.03);
+    }
+
+    .ac-modal-title {
+        font-family: var(--raj);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: var(--danger);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+        .ac-modal-title i {
+            font-size: 13px;
+        }
+
+    .ac-modal-close {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.4rem;
+        color: var(--text-muted);
+        line-height: 1;
+        transition: color .2s;
+        padding: 0 4px;
+    }
+
+        .ac-modal-close:hover {
+            color: var(--danger);
+        }
+
+    /* Body */
+    .ac-modal-body {
+        padding: 18px 18px 14px;
+    }
+
+    .ac-modal-desc {
+        font-family: var(--mono);
+        font-size: 11px;
+        color: var(--text-muted);
+        letter-spacing: .5px;
+        margin-bottom: 14px;
+        line-height: 1.6;
+    }
+
+    .ac-textarea {
+        border-color: rgba(255,68,68,.3);
+    }
+
+        .ac-textarea:focus {
+            border-color: var(--danger) !important;
+            background: rgba(255,68,68,.04) !important;
+        }
+
+    /* Footer */
+    .ac-modal-footer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 10px;
+        padding: 12px 18px;
+        border-top: 1px solid rgba(0,255,180,.1);
+    }
 </style>
 
-
-  @*@section addjs{ <script src="~/libs/sweetalert/sweetalert.min.js"></script>
+@section addjs {
     <script src="~/libs/toastr.js/toastr.min.js"></script>
     <script>
-        function removeEntity(e, id, name) {
-            e.preventDefault();
-            swal({
-                title: "Diqqət!",
-                text: `${name} - geri çevrilsin mi?`,
-                icon: "warning",
-                buttons: ['Xeyr', 'Bəli'],
-                dangerMode: true,
-            })
-                .then((willDelete) => {
-                    if (willDelete) {
-                        const pageState = $('.blog-pagination').data();
-                        $.ajax({
-                            url: `@Url.Action("Remove")`,
-                            data: {
-                                id: id,
-                                pageIndex: pageState?.page,
-                                pageSize:  pageState?.size
-                            },
-                            contentType:'application/x-www-form-urlencoded',
-                            type: "POST",
-                            success: function(response, statusText, xhr) {
-                                if (/[<>]+/g.test(xhr.responseText) == true
-                                    || xhr.responseText.replace(/(\r|\n|\r\n|\s)/g, '').length == 0) {
-                                    toastr.error("İcazə rədd edildi!","Uğur");
-                                    $('#dynamic-body').html(xhr.responseText);
-                                }
-                                else {
-                                    toastr.error(response.message,"Xəta");
-                                }
-                            },
-                            error: function(response) {
-                                toastr.error('Sistem xətası.Biraz sonra yenidən yoxlayın', "Xəta!")
-                                console.warn(response);
-                            }
-                        });
-                    }
-                });
-        }
- 
-function goPage(page, size) {
+        let currentId = null;
 
+        /* ── helpers ── */
+        function openModal()  {
+            document.getElementById('rejectOverlay').classList.remove('hidden');
+            document.getElementById('rejectModal').classList.remove('hidden');
+        }
+        function closeModal() {
+            document.getElementById('rejectOverlay').classList.add('hidden');
+            document.getElementById('rejectModal').classList.add('hidden');
+        }
+
+        document.getElementById('closeRejectModal').addEventListener('click', closeModal);
+        document.getElementById('cancelRejectModal').addEventListener('click', closeModal);
+        document.getElementById('rejectOverlay').addEventListener('click', closeModal);
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+        /* ── Approve ── */
+        function approvePermission(id) {
+            $.ajax({
+                url: '@Url.Action("UpdateStatus")',
+                type: 'POST',
+                data: { UserId: id, AdditionalParam: 'Accept' },
+                success: function () {
+                    toastr.success("Request approved — confirmation email sent.");
+                    setTimeout(() => location.reload(), 1500);
+                },
+                error: function () { toastr.error("An error occurred."); }
+            });
+        }
+
+        /* ── Open reject modal ── */
+        function openRejectModal(id) {
+            currentId = id;
+            document.getElementById('rejectReason').value = '';
+            openModal();
+        }
+
+        /* ── Confirm reject ── */
+        document.getElementById('confirmReject').addEventListener('click', function () {
+            const reason = document.getElementById('rejectReason').value.trim();
+            if (!reason) {
+                toastr.warning("Please provide a rejection reason.");
+                return;
+            }
+            $.ajax({
+                url: '@Url.Action("UpdateStatus")',
+                type: 'POST',
+                data: { UserId: currentId, AdditionalParam: 'Refuse', RejectReason: reason },
+                success: function () {
+                    closeModal();
+                    toastr.error("Request rejected — applicant has been notified.");
+                    setTimeout(() => location.reload(), 1500);
+                },
+                error: function () { toastr.error("An error occurred."); }
+            });
+        });
+
+        /* ── Pagination ── */
+        function goPage(page, size) {
             $.ajax({
                 type: 'post',
-                data: {
-                    pageIndex: page,
-                    pageSize: size
-                },
-                success: function(response) {
-                    $('#dynamic-body').html(response);
-                },
-                error: function(resp) {
-                    console.log(resp);
-                }
+                data: { pageIndex: page, pageSize: size },
+                success: function (response) { $('#dynamic-body').html(response); }
             });
-
         }
     </script>
 }
-*@

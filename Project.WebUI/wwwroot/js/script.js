@@ -1,14 +1,12 @@
-﻿const { image } = require("d3-fetch");
-
-//let themeColor = document.querySelectorAll('.theme-toggler span');
+﻿//let themeColor = document.querySelectorAll('.theme-toggler span');
 
 //themeColor.forEach(color => color.addEventListener('click', () => {
 //    let background = color.style.background;
 //    document.querySelector('body').style.background = background;
 //}));
-const search = document.querySelector('.input-group input'),
-    table_rows = document.querySelectorAll('tbody tr'),
-    table_headings = document.querySelectorAll('thead th');
+const search = document.querySelector('.input-group input');
+const table_rows = document.querySelectorAll('#perm-table tbody tr');
+const table_headings = document.querySelectorAll('#perm-table thead th');
 
 
 search.addEventListener('input', searchTable);
@@ -46,7 +44,7 @@ table_headings.forEach((head, i) => {
 
 function sortTable(n) {
     var table;
-    table = document.getElementById("content-table");
+    table = document.getElementById("perm-table");
     var rows, i, x, y, count = 0;
     var switching = true;
 

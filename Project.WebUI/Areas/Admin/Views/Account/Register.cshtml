@@ -4,19 +4,21 @@
     ViewData["Title"] = "Register";
 }
 <!-- Start Page Banner Area-->
-<div class="page-banner-area">
+<div class="page-banner-area cyber-register-area">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
                 <br>
                 <div>
-
-                    <p><a class="button2" asp-controller="users" asp-action="index" style="--c:#E95A49">Home</a></p>
+                    <p><a class="cyber-btn cyber-btn-home" asp-controller="users" asp-action="index">&larr; Home</a></p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
                 <div class="page-banner-img" data-aos="fade-up-left" data-aos-duration="3000" data-aos-once="true">
-                    <img class="profileIcon" src="~/images/people-icon-sign-symbol-design-free-png.webp" width="100px" height="100px" alt="images">
+                    <div class="cyber-id-badge">
+                        <img class="profileIcon" src="~/images/people-icon-sign-symbol-design-free-png.webp" width="100" height="100" alt="images">
+                        <span class="cyber-id-badge-label">NEW IDENTITY</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -24,16 +26,18 @@
 </div>
 <!-- End Page Banner Area-->
 
-<div class="my-account-area pt-100 pb-70">
+<div class="my-account-area pt-100 pb-70 cyber-register-area">
     <div class="container">
-        <div class="my-account-content register-form">
+        <div class="my-account-content register-form cyber-card">
+            <div class="cyber-card-eyebrow">// ACCESS PROVISIONING</div>
             <h2>Register</h2>
-            <p>Welcome back register to your account</p>
+            <p>Create a new operator profile to access the system.</p>
             <form method="post" enctype="multipart/form-data">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="my-account-form">
                             <div class="from-group">
+                                <label asp-for="Name" class="cyber-label"></label>
                                 <input asp-for="Name" type="text" class="form-control" placeholder="Name">
                             </div>
                         </div>
@@ -41,6 +45,7 @@
                     <div class="col-lg-12">
                         <div class="my-account-form">
                             <div class="from-group">
+                                <label asp-for="Surname" class="cyber-label"></label>
                                 <input asp-for="Surname" type="text" class="form-control" placeholder="Surname">
                             </div>
                         </div>
@@ -48,14 +53,15 @@
                     <div class="col-lg-12">
                         <div class="my-account-form">
                             <div class="from-group">
+                                <label asp-for="FinCode" class="cyber-label"></label>
                                 <input asp-for="FinCode" type="text" class="form-control" placeholder="FinCode">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-12">
-                        <label class="col-sm-2 col-form-label" asp-for="Image">
+                        <label class="cyber-label" asp-for="Image">
                         </label>
-                        <div class="col-sm-10">
+                        <div class="col-sm-10" style="padding-left:0;">
                             <input asp-for="Image" type="file" class="form-control" />
                             <span asp-validation-for="Image" class="text-danger"></span>
                         </div>
@@ -86,6 +92,7 @@
                     <div class="col-lg-12">
                         <div class="my-account-form">
                             <div class="from-group">
+                                <label asp-for="Email" class="cyber-label"></label>
                                 <input asp-for="Email" type="email" class="form-control" placeholder="Email">
                             </div>
                         </div>
@@ -94,6 +101,7 @@
                         <div class="col-lg-12">
                             <div class="my-account-form">
                                 <div class="from-group">
+                                    <label asp-for="Password" class="cyber-label"></label>
                                     <input asp-for="Password" type="password" class="form-control"
                                            placeholder="Password">
                                 </div>
@@ -103,6 +111,7 @@
                             <div class="col-lg-12">
                                 <div class="my-account-form">
                                     <div class="from-group">
+                                        <label asp-for="ConfirmPassword" class="cyber-label"></label>
                                         <input asp-for="ConfirmPassword" type="password" class="form-control"
                                                placeholder="Confirm Password">
                                     </div>
@@ -110,8 +119,8 @@
                             </div>
                         </div>
                         <br>
-                        <button class="button" type="submit" style="--c:#229091">
-                            Register Account<i class="ri-arrow-right-line"></i>
+                        <button class="cyber-btn cyber-btn-submit" type="submit">
+                            Register Account <i class="ri-arrow-right-line"></i>
                         </button>
             </form>
 
@@ -119,138 +128,254 @@
     </div>
 
 </div>
-    </div>
+</div>
 <style>
-    .button {
-        margin-left: 13px;
-        font-size: 1rem;
-        cursor: pointer;
-        padding: .1em .6em;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 0 0 0 .1em inset var(--c);
-        --_g: linear-gradient(var(--c) 0 0) no-repeat;
-        background: var(--_g) calc(var(--_p,0%) - 100%) 0%, var(--_g) calc(200% - var(--_p,0%)) 0%, var(--_g) calc(var(--_p,0%) - 100%) 100%, var(--_g) calc(200% - var(--_p,0%)) 100%;
-        background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
-        outline-offset: .1em;
-        transition: background-size .4s, background-position 0s .4s;
+    @@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+    :root {
+        --reg-green: #00ffb4;
+        --reg-green-dim: rgba(0,255,180,0.12);
+        --reg-green-faint: rgba(0,255,180,0.045);
+        --reg-green-muted: #00c899;
+        --reg-bg: #050c14;
+        --reg-surface: rgba(8,16,28,0.96);
+        --reg-border: rgba(0,255,180,0.18);
+        --reg-border-hi: rgba(0,255,180,0.5);
+        --reg-text: #d8f0e8;
+        --reg-text-muted: #4a8a6a;
+        --reg-text-dim: #1e4030;
     }
 
-        .button:hover {
-            --_p: 100%;
-            transition: background-position .4s, background-size 0s;
-        }
-
-        .button:active {
-            box-shadow: 0 0 9e9q inset #0009;
-            background-color: var(--c);
-            color: #fff;
-        }
-
-    .selection > .select2-selection.select2-selection--single {
-        width: 150px;
+    .cyber-register-area {
+        background-color: var(--reg-bg);
+        background-image: linear-gradient(rgba(0,255,180,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,180,0.03) 1px, transparent 1px);
+        background-size: 42px 42px;
+        position: relative;
     }
 
-    .select2-container {
-        width: auto !important;
+    .page-banner-area.cyber-register-area {
+        padding: 2.5rem 0;
+        border-bottom: 1px solid var(--reg-border);
     }
 
-    .button2 {
-        padding: 10px 20px;
-        border-radius: 10px;
-        color: black;
-        box-shadow: 0 0 0 .1em inset var(--c);
-        --_g: linear-gradient(var(--c) 0 0) no-repeat;
-        background: var(--_g) calc(var(--_p,0%) - 100%) 0%, var(--_g) calc(200% - var(--_p,0%)) 0%, var(--_g) calc(var(--_p,0%) - 100%) 100%, var(--_g) calc(200% - var(--_p,0%)) 100%;
-        background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
-        outline-offset: .1em;
-        transition: background-size .4s, background-position 0s .4s;
+    .cyber-btn {
+        display: inline-block;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 10px 22px;
+        border: 1px solid var(--reg-green);
+        border-radius: 3px;
+        color: var(--reg-green);
+        background: var(--reg-green-faint);
+        transition: all 0.2s;
     }
 
-        .button2:hover {
-            --_p: 100%;
-            color: black;
-            transition: background-position .4s, background-size 0s;
+        .cyber-btn:hover {
+            background: var(--reg-green);
+            color: #021a12;
+            text-decoration: none;
         }
 
-        .button2:active {
-            box-shadow: 0 0 9e9q inset #0009;
-            background-color: var(--c);
-            color: black;
+    .cyber-id-badge {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+        .cyber-id-badge .profileIcon {
+            border-radius: 50%;
+            border: 2px solid var(--reg-border-hi);
+            filter: drop-shadow(0 0 12px rgba(0,255,180,0.25));
+            background: var(--reg-green-faint);
+            padding: 6px;
         }
 
+    .cyber-id-badge-label {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        letter-spacing: 3px;
+        color: var(--reg-green-muted);
+        border: 1px solid var(--reg-border);
+        padding: 3px 14px;
+        border-radius: 2px;
+        text-transform: uppercase;
+    }
+
+    .cyber-card {
+        background: var(--reg-surface);
+        border: 1px solid var(--reg-border);
+        border-radius: 4px;
+        padding: 2.2rem 2.4rem;
+        position: relative;
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+        .cyber-card::before, .cyber-card::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            border-color: var(--reg-green);
+            border-style: solid;
+            border-width: 0;
+        }
+
+        .cyber-card::before {
+            top: -1px;
+            left: -1px;
+            border-top-width: 2px;
+            border-left-width: 2px;
+        }
+
+        .cyber-card::after {
+            bottom: -1px;
+            right: -1px;
+            border-bottom-width: 2px;
+            border-right-width: 2px;
+        }
+
+    .cyber-card-eyebrow {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        letter-spacing: 3px;
+        color: var(--reg-green);
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+
+    .cyber-card h2 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        color: var(--reg-text);
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 4px;
+    }
+
+    .cyber-card p {
+        font-family: 'Share Tech Mono', monospace;
+        color: var(--reg-text-muted);
+        font-size: 12px;
+        margin-bottom: 1.8rem;
+        letter-spacing: 0.5px;
+    }
+
+    .cyber-label {
+        display: block;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        letter-spacing: 2px;
+        color: var(--reg-green-muted);
+        text-transform: uppercase;
+        margin-bottom: 6px;
+    }
+
+    .register-form .form-control {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 13px;
+        color: var(--reg-text);
+        letter-spacing: 0.5px;
+        background: var(--reg-green-faint);
+        border: 1px solid var(--reg-border);
+        border-radius: 3px;
+        padding: 11px 16px;
+        height: auto;
+    }
+
+        .register-form .form-control::placeholder {
+            color: var(--reg-text-dim);
+        }
+
+        .register-form .form-control:focus {
+            border-color: var(--reg-green);
+            background: rgba(0,255,180,0.07);
+            box-shadow: 0 0 0 1px rgba(0,255,180,0.25);
+        }
 
     .from-group {
-        margin-bottom: 10px;
+        margin-bottom: 14px;
     }
 
     .form-group .row-primary {
-        width: 120px;
-    }
-
-    .default-btn {
-        border-color: darkcyan;
-        width: 180px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: cornflowerblue;
-        border-style: outset;
-        color: aliceblue;
-    }
-
-        .default-btn:hover {
-            background-color: darkorchid;
-            box-shadow: 1px 3px #888888;
-        }
-
-    .form-group .row-primary {
+        width: 100%;
         display: flex;
     }
 
     .selectionInput {
         display: flex;
+        gap: 16px;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
-    .form-group .row-primary {
-        width: 900px;
-    }
-
-    .single-page-banner-content {
-        width: 65px;
-        height: 40px;
-        padding: 5px 0px;
-        background-color: cornflowerblue;
-        text-align: center;
-        cursor: pointer;
-        color: white;
-        border-radius: 5px;
-    }
-
-        .single-page-banner-content:hover {
-            background-color: darkorchid;
-            box-shadow: 1px 3px #888888;
+        .selectionInput .form-group {
+            flex: 1;
         }
 
-</style>
-@section addcss{
-<link rel="stylesheet" href="~/libs/select2/css/select2.css">
-}
-@section addjs{
-<script src="~/libs/select2/js/select2.js"></script>
-<script src="~/libs/ckeditor5/ckeditor.min.js"></script>
-<script>
-    $(document).ready(function() {
-        ClassicEditor
-    .create(document.querySelector('#editor'))
-    .catch(error=>{
-        console.error(error);
-    });
-    $('.select2').select2();
-    });
+    .select2-container {
+        width: 100% !important;
+    }
 
-</script>
+    .cyber-btn-submit {
+        width: 100%;
+        text-align: center;
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: var(--reg-green);
+        background: transparent;
+        border: 1px solid var(--reg-green);
+        border-radius: 3px;
+        padding: 12px 0;
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+        .cyber-btn-submit:hover {
+            background: var(--reg-green-dim);
+            color: #e0fff4;
+        }
+
+    .text-danger {
+        color: #ff4444 !important;
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    @@media (max-width: 768px) {
+        .selectionInput
+
+    {
+        flex-direction: column;
+    }
+
+    }
+</style>
+@section addcss {
+    <link rel="stylesheet" href="~/libs/select2/css/select2.css">
+}
+@section addjs {
+    <script src="~/libs/select2/js/select2.js"></script>
+    <script src="~/libs/ckeditor5/ckeditor.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            ClassicEditor
+        .create(document.querySelector('#editor'))
+        .catch(error=>{
+            console.error(error);
+        });
+        $('.select2').select2();
+        });
+
+    </script>
 }
 <script>
     $(document).ready(function () {
@@ -267,4 +392,3 @@
         });
     });
 </script>
-

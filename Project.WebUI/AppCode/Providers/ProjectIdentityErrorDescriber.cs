@@ -10,7 +10,7 @@ namespace Project.AppCode.Providers
             return new IdentityError
             {
                 Code = nameof(DuplicateRoleName),
-                Description = $"{role} bu rol artiq movcuddur"
+                Description = $"{role} role is already available"
             };
         }
 
@@ -19,7 +19,7 @@ namespace Project.AppCode.Providers
             return new IdentityError
             {
                 Code = nameof(InvalidRoleName),
-                Description = "rol adi bosh buraxila bilmez"
+                Description = "Role name can not be empty"
             };
         }
 
@@ -30,7 +30,7 @@ namespace Project.AppCode.Providers
             return new IdentityError
             {
                 Code = nameof(DuplicateEmail),
-                Description = $"'{email}' artiq movcuddur"
+                Description = $"'{email}' is already available"
             };
         }
 
@@ -39,7 +39,7 @@ namespace Project.AppCode.Providers
             return new IdentityError
             {
                 Code = nameof(UserAlreadyInRole),
-                Description = $"İstifadəçi hazırda {role}-roldadır"
+                Description = $"User in {role}-role"
             };
         }
 
@@ -48,7 +48,7 @@ namespace Project.AppCode.Providers
             return new IdentityError
             {
                 Code = nameof(UserNotInRole),
-                Description = $"İstifadəçi {role}-rolda deyil"
+                Description = $"User not in {role}-role"
             };
         }
     }

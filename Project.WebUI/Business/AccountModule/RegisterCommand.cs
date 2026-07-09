@@ -31,29 +31,39 @@ namespace Project.WebUI.Business.AccountModule
             private readonly IActionContextAccessor ctx;
             private readonly IEmailService emailService;
             private readonly ICryptoService cryptoService;
+            private readonly IQrCodeService qrCodeService;
 
-            public RegisterCommandHandler(UserManager<ProjectUser> userManager, IActionContextAccessor ctx,
-                IEmailService emailService, ICryptoService cryptoService)
-            { 
+            public RegisterCommandHandler(
+                UserManager<ProjectUser> userManager,
+                IActionContextAccessor ctx,
+                IEmailService emailService,
+                ICryptoService cryptoService,
+                IQrCodeService qrCodeService)
+            {
                 this.userManager = userManager;
                 this.ctx = ctx;
                 this.emailService = emailService;
                 this.cryptoService = cryptoService;
+                this.qrCodeService = qrCodeService;
             }
 
-            public async Task<ProjectUser> Handle(RegisterCommand request, CancellationToken cancellationToken)
+            public async Task<ProjectUser> Handle(
+                RegisterCommand request,
+                CancellationToken cancellationToken)
             {
-                var user = await userManager.FindByEmailAsync(request.Email);
+                var existingUser = await userManager.FindByEmailAsync(request.Email);
 
-
-                if (user != null)
+                if (existingUser != null)
                 {
-                    ctx.ActionContext.ModelState.AddModelError("Email", "Bu e-poct artiq istifade olunub");
+                    ctx.ActionContext.ModelState
+                        .AddModelError("Email", "Bu e-poçt artıq istifadə olunub");
                     return null;
                 }
 
+                // 🔥 QR TOKEN
+                string qrToken = Guid.NewGuid().ToString("N");
 
-                user = new ProjectUser
+                var user = new ProjectUser
                 {
                     Email = request.Email,
                     Name = request.Name,
@@ -63,61 +73,56 @@ namespace Project.WebUI.Business.AccountModule
                     RegisterDate = DateTime.Now,
                     ProfessionId = request.ProfessionId,
                     DepartmentId = request.DepartmentId,
-                    UserName = $"{request.Name}-{Guid.NewGuid()}".ToLower()
+                    UserName = $"{request.Name}-{Guid.NewGuid()}".ToLower(),
+                    QrCodeToken = qrToken
                 };
+
+                // 📷 PROFILE IMAGE
                 if (request.Image != null && request.Image.Length > 0)
                 {
-                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(request.Image.FileName);
-                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads/images");
+                    var fileName = Guid.NewGuid() + Path.GetExtension(request.Image.FileName);
+
+                    var uploadsFolder = Path.Combine(
+                        Directory.GetCurrentDirectory(),
+                        "wwwroot/uploads/images");
 
                     if (!Directory.Exists(uploadsFolder))
                         Directory.CreateDirectory(uploadsFolder);
 
                     var filePath = Path.Combine(uploadsFolder, fileName);
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await request.Image.CopyToAsync(stream);
-                    }
+
+                    using var stream = new FileStream(filePath, FileMode.Create);
+                    await request.Image.CopyToAsync(stream);
 
                     user.ImagePath = "/uploads/images/" + fileName;
                 }
-                //var countOfUserName = await userManager.Users.CountAsync(u => u.UserName.StartsWith(user.UserName)
-                //               , cancellationToken);
 
-                //if (countOfUserName > 0)
-                //{
-                //    user.UserName = $"{request.Surname}.{request}{countOfUserName + 1}";
-                //}
-
-
+                // 👤 CREATE USER
                 var result = await userManager.CreateAsync(user, request.Password);
 
                 if (!result.Succeeded)
                 {
                     foreach (var item in result.Errors)
-                    {
-                        ctx.ActionContext.ModelState.AddModelError("Name", item.Description);
-                    }
+                        ctx.ActionContext.ModelState.AddModelError("", item.Description);
 
                     return null;
                 }
 
-                var token = await userManager.GenerateEmailConfirmationTokenAsync(user);
+                // 🔥 QR FILE CREATE
+                string qrFileName = $"qr-{user.Id}-{Guid.NewGuid():N}.png";
 
+                string qrPath = qrCodeService.GenerateAndSave(qrToken, qrFileName);
 
-                string myToken = cryptoService.Encrypt($"{user.Id}-{token}", true);
+                // 💾 SAVE TO DB
+                user.QrCodePath = qrPath;
+                await userManager.UpdateAsync(user);
 
-                string scheme = ctx.ActionContext.HttpContext.Request.Scheme;
-                string host = ctx.ActionContext.HttpContext.Request.Host.ToString();
-
-
-                var url = $"{scheme}://{host}/email-confirm?token={myToken}";
-
-                //{scheme}://{host}/email-confirm?token=1
-
-                await emailService.SendEmailAsync(user.Email, 
-                    "Registration",
-                    $"Hello,\r\n\r\nYour registration has been successfully completed. You can now log in to your account and start using the system without any issues.\r\n\r\nIf you experience any difficulties, feel free to contact us.\r\n\r\nBest regards,\r\nSupport Team😊");
+                await emailService.SendWelcomeEmailAsync(
+                    user.Email,
+                    $"{user.Name} {user.Surname}",
+                    user.UserName,
+                    request.Password  // CreateAsync-dən əvvəl gəlir, hələ plain text
+                );
 
                 return user;
             }

@@ -1,90 +1,132 @@
-﻿@model Permission
+﻿@using Project.WebUI.Models.Entities
+@model Permission
 @{
     ViewData["Title"] = "Details";
 }
 
-<!-- Page-header start -->
 <div class="page-header">
-    <div class="row align-items-end">
-        <div class="col-lg-8">
-
-        </div>
-        <div class="col-lg-4">
-        </div>
+    <div>
+        <h1><i class="fa fa-eye" style="margin-right:10px; font-size:16px;"></i>İcazə Detalları</h1>
+        <div class="page-breadcrumb">Admin &rsaquo; <a href="/Permissions" style="color:var(--text-muted); text-decoration:none;">İcazələr</a> &rsaquo; <span>Detallar</span></div>
     </div>
 </div>
-<!-- Page-header end -->
-<!-- Page-body start -->
-<div class="page-body">
-    <!-- Basic table card start -->
-    <div class="card">
-        <div class="card-block">
-            <h4 class="sub-title">Basic Inputs</h4>
+
+<div class="ac-card" style="max-width:640px;">
+    <div class="ac-card-header">
+        <h4>Ərizə Məlumatları</h4>
+        <span style="font-size:9px; letter-spacing:2px; color:var(--green);">
+            <i class="fa fa-circle" style="font-size:7px; margin-right:4px;"></i>READ ONLY
+        </span>
+    </div>
+    <div class="ac-card-body">
+
+        @{
+            void RenderRow(string label, string value, bool isLast = false)
+            {
+                <div style="display:grid; grid-template-columns:140px 1fr; align-items:center; gap:12px; margin-bottom:14px; padding-bottom:14px; @(isLast ? "" : "border-bottom:1px solid var(--border);")">
+                    <span class="ac-label" style="margin:0;">@label</span>
+                    <span style="font-size:13px; color:var(--text-main);">@value</span>
+                </div>
+            }
+        }
+
+        @{
+            RenderRow("Ad", Model.Name);
+        }
+        @{
+            RenderRow("Soyad", Model.Surname);
+        }
+        @{
+            RenderRow("Email", Model.Email);
+        }
+        @{
+            RenderRow("Səbəb", Model.Reason);
+        }
+        @{
+            RenderRow("Tarix", Model.Date?.ToString("dd.MM.yyyy HH:mm"));
+        }
+        @{
+            RenderRow("Müddət", Model.Duration);
+        }
+        @{
+            RenderRow("Vəzifə", Model.Profession);
+        }
+
+        <div style="display:grid; grid-template-columns:140px 1fr; align-items:center; gap:12px; margin-bottom:14px; padding-bottom:14px; border-bottom:1px solid var(--border);">
+            <span class="ac-label" style="margin:0;">Status</span>
             <div>
-                <div class="form-group row">
-                    <label class="col-sm-2 col-form-label" asp-for="Name">
-                    </label>
-                    <div class="col-sm-10">
-                        <p class="form-control">
-                            @Model.Name
-                        </p>
-                    </div>
-                </div>
-                 <div class="form-group row">
-                    <label class="col-sm-2 col-form-label" asp-for="Surname">
-                    </label>
-                    <div class="col-sm-10">
-                        <p class="form-control">
-                            @Model.Surname
-                        </p>
-                    </div>
-                </div>
-                 <div class="form-group row">
-                    <label class="col-sm-2 col-form-label" asp-for="Reason">
-                    </label>
-                    <div class="col-sm-10">
-                        <p class="form-control">
-                            @Model.Reason
-                        </p>
-                    </div>
-                </div>
-                 <div class="form-group row">
-                    <label class="col-sm-2 col-form-label" asp-for="Date">
-                    </label>
-                    <div class="col-sm-10">
-                        <p class="form-control">
-                            @Model.Date
-                        </p>
-                    </div>
-                </div>
-                 <div class="form-group row">
-                    <label class="col-sm-2 col-form-label" asp-for="Duration">
-                    </label>
-                    <div class="col-sm-10">
-                        <p class="form-control">
-                            @Model.Duration
-                        </p>
-                    </div>
-                </div>
-                 <div class="form-group row">
-                    <label class="col-sm-2 col-form-label" asp-for="Profession">
-                    </label>
-                    <div class="col-sm-10">
-                        <p class="form-control">
-                            @Model.Profession
-                        </p>
-                    </div>
-                </div>
-               
-                <div class="form-group row">
-                    <div class="col-12 d-flex justify-content-end">
-                        <a class="btn btn-info" asp-action="index">Go Back</a>
-                    </div>
-                </div>
+                @switch (Model.Status)
+                {
+                    case Status.Pending:
+                        <span class="badge" style="background-color: var(--warn); color: white; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Gözləyir</span>
+                        break;
+                    case Status.Approved:
+                        <span class="badge" style="background-color: var(--green); color: white; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Təsdiqlənib ✅</span>
+                        break;
+                    case Status.Rejected:
+                        <span class="badge" style="background-color: var(--danger); color: white; padding: 4px 10px; border-radius: 4px; font-size: 12px;">Rədd edilib ❌</span>
+                        break;
+                }
             </div>
         </div>
+
+        @if (Model.Status == Status.Rejected && !string.IsNullOrWhiteSpace(Model.RejectReason))
+        {
+            <div style="display:grid; grid-template-columns:140px 1fr; align-items:center; gap:12px; margin-bottom:22px;">
+                <span class="ac-label" style="margin:0;">Rədd səbəbi</span>
+                <span style="color:var(--danger); font-weight:600; font-size:13px;">
+                    @Model.RejectReason
+                </span>
+            </div>
+        }
+
+        <div style="display:flex; gap:10px; margin-top:1.5rem;">
+            @if (Model.Status == Status.Pending)
+            {
+                <button onclick="approvePermission(@Model.Id)" class="btn-ac btn-ac-success">
+                    <i class="fa fa-check"></i> Təsdiqlə
+                </button>
+                <button onclick="openRejectModal(@Model.Id)" class="btn-ac btn-ac-danger">
+                    <i class="fa fa-xmark"></i> Rədd et
+                </button>
+            }
+            <a asp-action="Index" class="btn-ac btn-ac-info">
+                <i class="fa fa-arrow-left"></i> Geri
+            </a>
+        </div>
     </div>
 </div>
-<!-- Page-body end -->
 
+@section addjs {
+    <script src="~/libs/toastr.js/toastr.min.js"></script>
+    <script>
+        function approvePermission(id) {
+            if (!confirm("Təsdiqləmək istədiyinizə əminsiniz?")) return;
+            $.ajax({
+                url: '@Url.Action("UpdateStatus", "Permissions", new { area = "Admin" })',
+                type: 'POST',
+                data: { UserId: id, AdditionalParam: 'Accept' },
+                success: function () {
+                    toastr.success("Təsdiqləndi və email göndərildi.");
+                    setTimeout(() => location.href = '@Url.Action("Index")', 1500);
+                },
+                error: function () { toastr.error("Xəta baş verdi."); }
+            });
+        }
 
+        function openRejectModal(id) {
+            const reason = prompt("Rədd səbəbini yazın:");
+            if (!reason) return;
+            $.ajax({
+                url: '@Url.Action("UpdateStatus", "Permissions", new { area = "Admin" })',
+                type: 'POST',
+                data: { UserId: id, AdditionalParam: 'Refuse', RejectReason: reason },
+                success: function () {
+                    toastr.error("Rədd edildi.");
+                    setTimeout(() => location.href = '@Url.Action("Index")', 1500);
+                },
+                error: function () { toastr.error("Xəta baş verdi."); }
+            });
+        }
+    </script>
+}

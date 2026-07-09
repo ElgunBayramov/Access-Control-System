@@ -1,86 +1,118 @@
 ﻿@using Project.WebUI.Business.AccountModule
 @model SigninCommand
 @{
-    Layout=null;
+    Layout = null;
 }
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="https://seeklogo.com/images/T/the-project-logo-6082FFB8D5-seeklogo.com.png" />
-	<link rel="stylesheet" type="text/css" href="~/vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="~/vendor/animate/animate.css">
-	<link rel="stylesheet" type="text/css" href="~/vendor/css-hamburgers/hamburgers.min.css">
-	<link rel="stylesheet" type="text/css" href="~/vendor/select2/select2.min.css">
-	<link rel="stylesheet" type="text/css" href="~/css/util.css">
-	<link rel="stylesheet" type="text/css" href="~/css/main.css">
-	<title>Access Control System</title>
-	<style>
-		body{
-			overflow:hidden;
-		}
-	</style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="https://seeklogo.com/images/T/the-project-logo-6082FFB8D5-seeklogo.com.png" />
+    <link rel="stylesheet" type="text/css" href="~/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="~/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="~/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="~/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/css/main.css" asp-append-version="true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Access Control System</title>
 </head>
 <body>
-	
-<div class="limiter">
-	<div class="container-login100">
-		<div class="wrap-login100">
-			<div class="login100-pic js-tilt" data-tilt>
-				<img src="~/images/img-01.png" alt="IMG">
-			</div>
-			<form method="post" class="login100-form validate-form" autocomplete="off">
-			
-				<span class="login100-form-title">
-					Member Login
-				</span>
-				 <div asp-validation-summary="All"></div>
-				<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-					<input id="username" asp-for="UserName" class="input100" type="text" placeholder="Email">
-					<span class="focus-input100"></span>
-					<span class="symbol-input100">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-					</span>
-				</div>
 
-				<div class="wrap-input100 validate-input" data-validate="Password is required">
-					<input id="password" asp-for="Password" class="input100" type="password" placeholder="Password">
-					<span class="focus-input100"></span>
-					<span class="symbol-input100">
-						<i class="fa fa-lock" aria-hidden="true"></i>
-					</span>
-				</div>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
 
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						Login
-					</button>
-				</div>
+                <!-- Left: illustration -->
+                <div class="login100-pic js-tilt" data-tilt>
+                    <img src="~/images/img-01.png" alt="Secure system illustration">
+                </div>
 
-				<div class="text-center p-t-12">
-				</div>
+                <!-- Right: form -->
+                <form method="post" class="login100-form validate-form" autocomplete="off">
 
-				<div class="text-center p-t-136">
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
-	<script src="~/vendor/jquery/jquery-3.2.1.min.js"></script>
-	<script src="~/vendor/bootstrap/js/popper.js"></script>
-	<script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
-	<script src="~/vendor/select2/select2.min.js"></script>
-	<script src="~/vendor/tilt/tilt.jquery.min.js"></script>
-	<script>
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-	<script src="~/js/main.js"></script>
+                    <!-- Form header -->
+                    <div class="login100-form-header">
+                        <div class="login100-form-shield">
+                            <i class="fa fa-shield" aria-hidden="true"></i>
+                        </div>
+                        <span class="login100-form-title">ACCESS CONTROL</span>
+                        <div class="login100-form-status">
+                            <div class="status-dot"></div>
+                            <span class="status-label">SYSTEM ONLINE</span>
+                        </div>
+                    </div>
+
+                    <!-- Validation summary -->
+                    <div asp-validation-summary="All"></div>
+
+                    <!-- Username -->
+                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                        <span class="input-field-label">// USER_IDENTIFIER</span>
+                        <input id="username"
+                               asp-for="UserName"
+                               class="input100"
+                               type="text"
+                               placeholder="email@domain.com" />
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </span>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="wrap-input100 validate-input" data-validate="Password is required">
+                        <span class="input-field-label">// AUTH_KEY</span>
+                        <input id="password"
+                               asp-for="Password"
+                               class="input100"
+                               type="password"
+                               placeholder="••••••••••••" />
+                        <span class="focus-input100"></span>
+                        <span class="symbol-input100">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </span>
+                    </div>
+
+                    <!-- Extras row -->
+                    <div class="login100-extras">
+                        
+                    </div>
+
+                    <!-- Submit button -->
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn">
+                            LOGIN
+                        </button>
+                    </div>
+
+                    <!-- Footer -->
+                    <div class="login100-footer">
+                        ENCRYPTED &middot; VERSION 1.3 &middot; A.C-SYSTEM
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="~/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/vendor/select2/select2.min.js"></script>
+    <script src="~/vendor/tilt/tilt.jquery.min.js"></script>
+    <script>
+        $('.js-tilt').tilt({ scale: 1.05 });
+    </script>
+    <script src="~/js/main.js"></script>
+
 </body>
 </html>
+
 
 @*<environment include="Development">
     <script>

@@ -2,243 +2,117 @@
 @using Project.WebUI.Models.Entities
 @model PermissionMultiModel
 @{
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "My Access Requests";
 }
+
 <main class="table">
     <section class="table__header">
         <h1>A.C SYSTEM</h1>
-        <a class="add" href="#">Add</a>
+        <a class="add" id="openModal" href="#">+ New Request</a>
         <div class="input-group">
-            <input type="search" placeholder="Search Data...">
-            <img src="~/images/search.png" alt="">
+            <input type="search" id="permSearch" placeholder="Search records...">
+            <img src="~/images/search.png" alt="search">
         </div>
     </section>
+
     <section class="table__body">
-        <table id="content-table">
+        <table id="perm-table">
             <thead>
                 <tr>
-                    <th> Firstname <span onclick="sortTable(1)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> Lastname <span onclick="sortTable(2)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> Date <span onclick="sortTable(3)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> Permission <span onclick="sortTable(4)" class="icon-arrow">&UpArrow;</span></th>
-                    <th> Date <span onclick="sortTable(5)" class="icon-arrow">&UpArrow;</span></th>
+                    <th>First Name <span class="icon-arrow">&#x2193;</span></th>
+                    <th>Last Name  <span class="icon-arrow">&#x2193;</span></th>
+                    <th>Email      <span class="icon-arrow">&#x2193;</span></th>
+                    <th>Date       <span class="icon-arrow">&#x2193;</span></th>
+                    <th>Status     <span class="icon-arrow">&#x2193;</span></th>
+                    <th>Duration   <span class="icon-arrow">&#x2193;</span></th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (var userPermission in Model.Permission)
+                @foreach (var p in Model.Permission)
                 {
                     <tr>
-                        <td>@userPermission.Name</td>
-                        <td> @userPermission.Surname </td>
-                        <td> @userPermission.Date</td>
-                        @{
-                            switch (userPermission.Status)
-                            {
-                                case Status.Pending:
-                                    {
-                                        <td>
-                                            <p class="status pending">@userPermission.Status</p>
-                                        </td>
-                                        break;
-                                    }
-                                case Status.Rejected:
-                                    {
-                                        <td>
-                                            <p class="status cancelled">@userPermission.Status</p>
-                                        </td>
-                                        break;
-                                    }
-                                case Status.Approved:
-                                    {
-                                        <td>
-                                            <p class="status delivered">@userPermission.Status</p>
-                                        </td>
-                                        break;
-                                    }
-                            }
+                        <td>@p.Name</td>
+                        <td>@p.Surname</td>
+                        <td>@p.Email</td>
+                        <td>@p.Date?.ToString("dd.MM.yyyy HH:mm")</td>
+                        @switch (p.Status)
+                        {
+                            case Status.Pending:
+                                <td><p class="status pending">Pending</p></td>
+                                break;
+                            case Status.Rejected:
+                                <td><p class="status cancelled">Rejected</p></td>
+                                break;
+                            case Status.Approved:
+                                <td><p class="status delivered">Approved</p></td>
+                                break;
                         }
-                        <td> <strong> @userPermission.Duration </strong></td>
+                        <td><strong>@p.Duration</strong></td>
                     </tr>
                 }
             </tbody>
         </table>
     </section>
 </main>
-<div class="modal hidden">
-    <div class="modal-top">
-        <button class="btn--close-modal">&times;</button>
-        <h2 class="modal__header">
-            New Permission
-        </h2>
-    </div>
-    <form asp-action="Index" asp-controller="Home" method="post" class="modal__form" id="form">
-        <label>Firstname:</label>
-        <input placeholder="Name?" asp-for="@Model.CreateCommand.Name" type="text" />
-        <label>Lastname:</label>
-        <input placeholder="Surname?" asp-for="@Model.CreateCommand.Surname" type="text" />
-        <label>Position:</label>
-        <input placeholder="Select the profession" asp-for="@Model.CreateCommand.Profession" type="text" />
-        <label>Reason for arrival:</label>
-        <input placeholder="What is your reason?" asp-for="@Model.CreateCommand.Reason" type="text" />
-        <label>Arrival date:</label>
-        <input asp-for="@Model.CreateCommand.Date" type="datetime-local" />
-        <label>Time to spend:</label>
-        <input placeholder="Duration" asp-for="@Model.CreateCommand.Duration" type="text" />
 
-        @* <label>Hansı auditoriya:</label>
-            <input type="text" />*@
+<!-- New Request Modal -->
+<div class="modal hidden" id="modal">
+    <div class="modal-top">
+        <button class="btn--close-modal" id="closeModal">&times;</button>
+        <h2 class="modal__header">// New Access Request</h2>
+    </div>
+    <form asp-action="Index" asp-controller="Home"
+          method="post" class="modal__form" id="permForm">
+
+        <label>First Name:</label>
+        <input placeholder="Enter first name" asp-for="@Model.CreateCommand.Name" type="text" required />
+
+        <label>Last Name:</label>
+        <input placeholder="Enter last name" asp-for="@Model.CreateCommand.Surname" type="text" required />
+
+        <label>Email:</label>
+        <input placeholder="visitor@example.com" asp-for="@Model.CreateCommand.Email" type="email" required />
+
+        <label>Job Title:</label>
+        <input placeholder="e.g. Engineer" asp-for="@Model.CreateCommand.Profession" type="text" />
+
+        <label>Purpose:</label>
+        <input placeholder="Reason for visit" asp-for="@Model.CreateCommand.Reason" type="text" required />
+
+        <label>Visit Date:</label>
+        <input asp-for="@Model.CreateCommand.Date" type="datetime-local" required />
+
+        <label>Duration (hrs):</label>
+        <input placeholder="e.g. 3" asp-for="@Model.CreateCommand.Duration" type="text" required />
+
         <button type="submit" class="btn">Submit &rarr;</button>
     </form>
 </div>
-<div class="overlay hidden"></div>
-<partial name="_Pickup" />
+<div class="overlay hidden" id="overlay"></div>
 
+@section addjs {
+    <script>
 
-<script>
-    $(document).ready(function () {
-
-        $('#form').submit(function (e) {
+     
+        // AJAX submit
+        $("#permForm").submit(function (e) {
             e.preventDefault();
-
-            let fd = new FormData(e.currentTarget);
-
             $.ajax({
-                url: '@Url.Action("About","Home")',
-                type: 'POST',
-                data: fd,
-                processData: false,
-                contentType:'application/x-www-form-urlencoded',
-                success: function (response) {
-                    if (response.error == true) {
-                        $("#form")[0].reset();
-                        toastr.error(response.message)
-                    }
-                    else if (response.error == false) {
-                        $("#form")[0].reset();
-                        toastr.success(response.message)
-                    }
+                url: "@Url.Action("Index", "Home")",
+                type: "POST",
+                data: $(this).serialize(),
+                success: function () {
+                    toastr.success("Request submitted — awaiting admin approval.");
+                    $("#permForm")[0].reset();
+                    modal.classList.add("hidden");
+                    overlay.classList.add("hidden");
+                    setTimeout(() => location.reload(), 1500);
                 },
-                error: function (response) {
-                    toastr.error(response.message);
+                error: function () {
+                    toastr.error("An error occurred. Please try again.");
                 }
             });
         });
+    </script>
+}
 
-
-    });
-</script>
-<script>
-    window.addEventListener("load", function() {
-         let icon = document.querySelector(".picture");
-         let body = document.querySelector("body");
-
-           icon.addEventListener("click", function() {
-             body.style.backgroundImage = 'url("../images/technology-security-concept-modern-safety-digital-background-lock-protection-system-cyber-security-information-network-184838860.jpg")';
-             body.style.setProperty('background-repeat', 'no-repeat');
-             body.style.setProperty('background-attachment', 'fixed');
-             body.style.setProperty('background-size', 'cover');
-         });
-     });
-</script>
-<script>
-
-    const search = document.querySelector('.input-group input'),
-        table_rows = document.querySelectorAll('tbody tr'),
-        table_headings = document.querySelectorAll('thead th');
-
-
-    search.addEventListener('input', searchTable);
-    function searchTable() {
-        table_rows.forEach((row, i) => {
-            let table_data = row.textContent.toLowerCase(),
-                search_data = search.value.toLowerCase();
-
-            row.classList.toggle('hide', table_data.indexOf(search_data) < 0);
-            row.style.setProperty('--delay', i / 25 + 's');
-        })
-
-        document.querySelectorAll('tbody tr:not(.hide)').forEach((visible_row, i) => {
-            visible_row.style.backgroundColor = (i % 2 == 0) ? 'transparent' : '#0000000b';
-        });
-    }
-    table_headings.forEach((head, i) => {
-        let sort_asc = true;
-        head.onclick = () => {
-            table_headings.forEach(head => head.classList.remove('active'));
-            head.classList.add('active');
-
-            document.querySelectorAll('td').forEach(td => td.classList.remove('active'));
-            table_rows.forEach(row => {
-                row.querySelectorAll('td')[i].classList.add('active');
-            })
-
-            head.classList.toggle('asc', sort_asc);
-            sort_asc = head.classList.contains('asc') ? false : true;
-
-            sortTable(i, sort_asc);
-        }
-    })
-
-</script>
-
-<script>
-
-    function sortTable(n) {
-        var table;
-        table = document.getElementById("content-table");
-        var rows, i, x, y, count = 0;
-        var switching = true;
-
-        // Order is set as ascending
-        var direction = "ascending";
-
-        // Run loop until no switching is needed
-        while (switching) {
-            switching = false;
-            var rows = table.rows;
-
-            //Loop to go through all rows
-            for (i = 1; i < (rows.length - 1); i++) {
-                var Switch = false;
-
-                // Fetch 2 elements that need to be compared
-                x = rows[i].getElementsByTagName("td")[n];
-                y = rows[i + 1].getElementsByTagName("td")[n];
-
-                // Check the direction of order
-                if (direction == "ascending") {
-
-                    // Check if 2 rows need to be switched
-                    if (x.innerText.toLowerCase() > y.innerText.toLowerCase()) {
-                        // If yes, mark Switch as needed and break loop
-                        Switch = true;
-                        break;
-                    }
-                } else if (direction == "descending") {
-
-                    // Check direction
-                    if (x.innerText.toLowerCase() < y.innerText.toLowerCase()) {
-                        // If yes, mark Switch as needed and break loop
-                        Switch = true;
-                        break;
-                    }
-                }
-            }
-            if (Switch) {
-                // Function to switch rows and mark switch as completed
-                rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-                switching = true;
-
-                // Increase count for each switch
-                count++;
-            } else {
-                // Run while loop again for descending order
-                if (count == 0 && direction == "ascending") {
-                    direction = "descending";
-                    switching = true;
-                }
-            }
-        }
-    }
-
-</script>

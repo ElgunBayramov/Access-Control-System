@@ -1,37 +1,36 @@
 ﻿@using Project.WebUI.Models.Entities.Membership
 @model PagedViewModel<ProjectUser>
-<table class="table">
+
+<table class="ac-table">
     <thead>
         <tr>
+            <th>#</th>
             <th>Name</th>
             <th>Surname</th>
             <th>Email</th>
-            <th class="operation">
-                <a asp-controller="account" asp-action="register" class="btn btn-success">
-                    <i class="fa fa-plus"></i>
-                </a>
-            </th>
+            <th class="operation">Operations</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model.Items)
         {
             <tr>
+                <td style="color:var(--text-muted); font-size:10px;">@item.Id</td>
                 <td>@item.Name</td>
                 <td>@item.Surname</td>
                 <td>
                     @if (item.EmailConfirmed)
                     {
-                        <span class="badge badge-success">@item.Email</span>
+                        <span class="badge badge-success" style="background-color: var(--green); color: black; padding: 3px 8px; border-radius: 4px; font-size: 11px;">@item.Email</span>
                     }
                     else
                     {
-                        <span class="badge badge-warning">@item.Email</span>
+                        <span class="badge badge-warning" style="background-color: var(--warn); color: black; padding: 3px 8px; border-radius: 4px; font-size: 11px;">@item.Email</span>
                     }
                 </td>
                 <td class="operation">
-                    <a asp-action="details" asp-route-id="@item.Id" class="btn btn-secondary">
-                        <i class="fa fa-eye"></i>
+                    <a asp-action="details" asp-route-id="@item.Id" class="btn-ac btn-ac-info btn-ac-sm">
+                        <i class="fa fa-eye"></i> View
                     </a>
                 </td>
             </tr>
@@ -39,4 +38,4 @@
     </tbody>
 </table>
 
-@Model.GetPager(Url,"Index",area:"admin",paginateFunction:"goPage")
+@Model.GetPager(Url, "Index", area: "admin", paginateFunction: "goPage")

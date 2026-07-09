@@ -72,6 +72,10 @@ namespace Project.WebUI.Controllers
             {
                 return Redirect("/admin");
             }
+            if (roles.Contains("muhafize"))
+            {
+                return Redirect("/guard/watch");  
+            }
 
             if (!string.IsNullOrWhiteSpace(callbackUrl))
             {

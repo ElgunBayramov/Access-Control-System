@@ -1,54 +1,32 @@
-﻿@using Project.WebUI.Business.AccountModule
-@using Project.WebUI.Models.Entities.Membership
+﻿@using Project.WebUI.Models.Entities.Membership
 @model ProjectUser
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Profile";
 }
+
 <div class="container">
     <section id="wexsi_melumat">
         <form action="">
             <div class="form-group">
-                <label for="ad">Name:</label>
-                <input type="text" disabled value="@Model.Name">
-            </div><br>
+                <label>// NAME</label>
+                <input type="text" disabled value="@Model.Name" />
+            </div>
             <div class="form-group">
-                <label for="ad">Surname:</label>
-                <input type="text" disabled value="@Model.Surname">
-            </div><Br>
+                <label>// SURNAME</label>
+                <input type="text" disabled value="@Model.Surname" />
+            </div>
             <div class="form-group">
-                <label for="ad">FIN:</label>
-                <input type="text" disabled value="@Model.FinCode">
-            </div><br>
+                <label>// FIN CODE</label>
+                <input type="text" disabled value="@Model.FinCode" />
+            </div>
             <div class="form-group">
-                <label for="ad">Department:</label>
-                <input type="text" disabled value="@ViewBag.departmentName">
-            </div><br>
+                <label>// DEPARTMENT</label>
+                <input type="text" disabled value="@ViewBag.departmentName" />
+            </div>
             <div class="form-group">
-                <label for="ad">Position:</label>
-                <input type="text" disabled value="@ViewBag.professionName">
+                <label>// POSITION</label>
+                <input type="text" disabled value="@ViewBag.professionName" />
             </div>
         </form>
-
     </section>
 </div>
-     <partial name="_Pickup" />
-<script>
-  let themeColor = document.querySelectorAll('.theme-toggler span');
-          themeColor.forEach(color => color.addEventListener('click', () => {
-    let background = color.style.background;
-    document.querySelector('body').style.background = background;
-}));
-</script>
-<script>
-    window.addEventListener("load", function() {
-        let icon = document.querySelector(".picture");
-        let body = document.querySelector("body");
-
-          icon.addEventListener("click", function() {
-            body.style.backgroundImage = 'url("../images/technology-security-concept-modern-safety-digital-background-lock-protection-system-cyber-security-information-network-184838860.jpg")';
-            body.style.setProperty('background-repeat', 'no-repeat');
-            body.style.setProperty('background-attachment', 'fixed');
-            body.style.setProperty('background-size', 'cover');
-        });
-    });
-</script>

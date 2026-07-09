@@ -1,36 +1,34 @@
 ﻿@using Project.WebUI.Models.ViewModels
 @model PagedViewModel<Department>
 
-    <table class="table">
+<table class="ac-table">
     <thead>
         <tr>
+            <th>#</th>
             <th>Name</th>
-            <th class="operation">
-                <a asp-action="create" class="btn btn-success">
-                    <i class="fa fa-plus"></i>
-                </a>
-            </th>
+            <th class="operation">Operations</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Items)
-{
-    <tr>
-        <td>@item.Name</td>
-        <td class="operation">
-            <a asp-action="edit" asp-route-id="@item.Id" class="btn btn-warning">
-                <i class="fa fa-pencil"></i>
-            </a>
-            <a asp-action="details" asp-route-id="@item.Id" class="btn btn-secondary">
-                <i class="fa fa-eye"></i>
-            </a>
-            <a onclick="removeEntity(event,@item.Id,'@item.Name')" class="btn btn-danger">
-                <i class="fa fa-trash"></i>
-            </a>
-        </td>
-    </tr>
-}
-</tbody>
+        @foreach (var item in Model.Items)
+        {
+            <tr>
+                <td style="color:var(--text-muted); font-size:10px;">@item.Id</td>
+                <td>@item.Name</td>
+                <td class="operation">
+                    <a asp-action="edit" asp-route-id="@item.Id" class="btn-ac btn-ac-warning btn-ac-sm">
+                        <i class="fa fa-pen"></i> Edit
+                    </a>
+                    <a asp-action="details" asp-route-id="@item.Id" class="btn-ac btn-ac-info btn-ac-sm">
+                        <i class="fa fa-eye"></i> View
+                    </a>
+                    <a onclick="removeEntity(event,@item.Id,'@item.Name')" href="#" class="btn-ac btn-ac-danger btn-ac-sm">
+                        <i class="fa fa-trash"></i> Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
 </table>
 
-@Model.GetPager(Url,"Index",area:"admin",paginateFunction:"goPage")
+@Model.GetPager(Url, "Index", area: "admin", paginateFunction: "goPage")

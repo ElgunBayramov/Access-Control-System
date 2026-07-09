@@ -17,8 +17,10 @@ namespace Project.WebUI.Models.Entities.Membership
         public int? ProfessionId { get; set; }
         public virtual Profession Profession { get; set; }
         public int? DepartmentId { get; set; }
-        public virtual Department Department { get; set; }  
-
+        public virtual Department Department { get; set; }
+        public string QrCodePath { get; set; }        
+        public string QrCodeToken { get; set; }       
+        public virtual ICollection<AccessLog> AccessLogs { get; set; }
 
     }
 }

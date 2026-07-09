@@ -57,10 +57,11 @@ namespace Project.WebUI
                 configuration.GetSection("cryptography").Bind(cfg);
             });
             services.AddSingleton<ICryptoService, CryptoService>();
-            services.Configure<EmailServiceOptions>(cfg =>
-            {
-                configuration.GetSection("emailAccount").Bind(cfg);
-            });
+            //services.Configure<EmailServiceOptions>(cfg =>
+            //{
+            //    configuration.GetSection("emailAccount").Bind(cfg);
+            //});
+            services.AddSingleton<IQrCodeService, QrCodeService>();
             services.AddSingleton<IEmailService, EmailService>();
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
             services.AddScoped<IClaimsTransformation, AppClaimProvider>();
@@ -126,6 +127,10 @@ namespace Project.WebUI
                 endpoints.MapControllerRoute(
                      name: "default",
                      pattern: "{controller=home}/{action=index}/{id?}");
+                endpoints.MapAreaControllerRoute(
+                 name: "defaultGuard",
+    areaName: "Guard",
+    pattern: "guard/{controller=Guard}/{action=Scan}/{id?}");
             });
         }
     }

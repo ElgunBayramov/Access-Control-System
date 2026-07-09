@@ -17,6 +17,7 @@ namespace Project.WebUI.Models.DataContexts
         public DbSet<Direction> Directions { get; set; }
         public DbSet<Profession> Professions { get; set; }
         public DbSet<Permission> Permissions { get; set; }
+        public DbSet<AccessLog> AccessLogs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

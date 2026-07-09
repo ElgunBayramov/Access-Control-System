@@ -1,26 +1,29 @@
 ﻿@using Project.WebUI.Models.ViewModels
 @model PagedViewModel<Permission>
 
-<table class="table">
+<table class="ac-table">
     <thead>
         <tr>
+            <th>#</th>
             <th>Name</th>
+            <th class="operation">Operations</th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model.Items)
         {
             <tr>
+                <td style="color:var(--text-muted); font-size:10px;">@item.Id</td>
                 <td>@item.Name</td>
                 <td class="operation">
-                    <a data-additional-param="Accept" data-user-id="@item.Id" class="btn btn-warning" id="add-accept">
-                        <i class="fa fa-check"></i>
+                    <a data-additional-param="Accept" data-user-id="@item.Id" class="btn-ac btn-ac-success btn-ac-sm add-status-trigger" href="#">
+                        <i class="fa fa-check"></i> Approve
                     </a>
-                    <a asp-action="details" asp-route-id="@item.Id" class="btn btn-secondary">
-                        <i class="fa fa-eye"></i>
+                    <a asp-action="details" asp-route-id="@item.Id" class="btn-ac btn-ac-info btn-ac-sm">
+                        <i class="fa fa-eye"></i> View
                     </a>
-                    <a data-additional-param="Refuse" data-user-id="@item.Id" class="btn btn-danger" id="add-refuse">
-                        <i class="fa fa-x"></i>
+                    <a data-additional-param="Refuse" data-user-id="@item.Id" class="btn-ac btn-ac-danger btn-ac-sm add-status-trigger" href="#">
+                        <i class="fa fa-xmark"></i> Reject
                     </a>
                 </td>
             </tr>
@@ -28,34 +31,37 @@
     </tbody>
 </table>
 
-@Model.GetPager(Url,"Index",area:"admin",paginateFunction:"goPage")
+@Model.GetPager(Url, "Index", area: "admin", paginateFunction: "goPage")
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function() {
-        $('#add-accept, #add-refuse').click(function(e) {
+        // ID-yə görə click təkrar nüsxələnməsin deyə class selector istifadə edirik
+        $('.add-status-trigger').off('click').click(function(e) {
             e.preventDefault();
 
             var userId = $(this).data('user-id');
             var additionalParam = $(this).data('additional-param');
+
+            // Əgər rədd etmək istəyirsə və ana səhifədədirsə modalı aça bilər (index daxilindəki açıq funksiya ilə)
+            if(additionalParam === 'Refuse' && typeof openRejectModal === 'function') {
+                openRejectModal(userId);
+                return;
+            }
+
             $.ajax({
-                url: 'Permissions/UpdateStatus',
+                url: '@Url.Action("UpdateStatus")',
                 type: 'POST',
                 data: {
                     UserId: userId,
                     AdditionalParam: additionalParam
                 },
                 success: function(result) {
-                    console.log('AJAX request successful!');
-                    console.log(result);
                     location.reload();
                 },
                 error: function(xhr, status, error) {
-                    console.log('AJAX request failed!');
                     console.log(xhr.responseText);
                 }
             });
         });
     });
-
 </script>

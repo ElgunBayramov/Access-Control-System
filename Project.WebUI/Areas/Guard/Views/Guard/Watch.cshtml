@@ -1,0 +1,924 @@
+﻿@using Project.WebUI.Models.ViewModels
+@using Project.WebUI.Models.Entities
+@model GuardWatchViewModel
+@{
+    ViewData["Title"] = "Guard Panel";
+    Layout = null;
+
+    // Null-safe
+    var permissions = Model.Permissions ?? new List<Permission>();
+    var accessLogs = Model.AccessLogs ?? new List<AccessLog>();
+    var approvedCount = permissions.Count(p => p.Status == Status.Approved);
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Guard Panel — A.C.SYSTEM</title>
+    <style>
+        :root {
+            --green: #00ffb4;
+            --green-dim: rgba(0,255,180,0.12);
+            --green-faint: rgba(0,255,180,0.04);
+            --green-muted: #00c899;
+            --bg: #050c14;
+            --surface: rgba(8,16,28,0.96);
+            --border: rgba(0,255,180,0.15);
+            --border-hi: rgba(0,255,180,0.45);
+            --text-main: #d8f0e8;
+            --text-muted: #4a8a6a;
+            --mono: 'Share Tech Mono', monospace;
+            --raj: 'Rajdhani', sans-serif;
+            --danger: #ff4444;
+            --warn: #ebc474;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: var(--bg);
+            background-image: linear-gradient(rgba(0,255,180,0.025) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,180,0.025) 1px, transparent 1px);
+            background-size: 44px 44px;
+            font-family: var(--mono);
+            color: var(--text-main);
+            overflow-x: hidden;
+        }
+
+            body::before {
+                content: '';
+                position: fixed;
+                left: 0;
+                right: 0;
+                height: 2px;
+                background: linear-gradient(90deg, transparent, rgba(0,255,180,0.15), transparent);
+                animation: scanline 7s linear infinite;
+                z-index: 9999;
+                pointer-events: none;
+            }
+        @@keyframes scanline {
+            from
+
+        {
+            top: 0
+        }
+
+        to {
+            top: 100%
+        }
+
+        }
+        @@keyframes blink {
+            0%,100%
+
+        {
+            opacity: 1
+        }
+
+        50% {
+            opacity: .2
+        }
+
+        }
+        @@keyframes fadein {
+            from
+
+        {
+            opacity: 0;
+            transform: translateY(6px)
+        }
+
+        to {
+            opacity: 1;
+            transform: none
+        }
+
+        }
+
+        /* NAVBAR */
+        .guard-nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: .9rem 1.8rem;
+            background: rgba(5,12,20,0.98);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        .nav-logo {
+            font-family: var(--raj);
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--green);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+            .nav-logo .dot {
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                background: var(--green);
+                box-shadow: 0 0 8px var(--green);
+                animation: blink 2.2s ease-in-out infinite;
+            }
+
+            .nav-logo .bracket {
+                color: var(--text-muted);
+                font-size: 12px;
+            }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1.2rem;
+        }
+
+        .nav-time {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: var(--green-muted);
+            border: 1px solid var(--border);
+            padding: 4px 12px;
+            border-radius: 3px;
+        }
+
+        .logout-link {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            text-decoration: none;
+            border: 1px solid var(--border);
+            padding: 6px 14px;
+            border-radius: 3px;
+            transition: all .2s;
+        }
+
+            .logout-link:hover {
+                color: var(--danger);
+                border-color: rgba(255,68,68,.4);
+                background: rgba(255,68,68,.05);
+            }
+
+        /* TAB BAR */
+        .tab-bar {
+            width: 100%;
+            display: flex;
+            background: rgba(5,12,20,0.9);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: .85rem 1rem;
+            font-family: var(--mono);
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            background: none;
+            border: none;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all .2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+            .tab-btn:hover {
+                color: var(--green);
+                background: var(--green-faint);
+            }
+
+            .tab-btn.active {
+                color: var(--green);
+                border-bottom-color: var(--green);
+                background: var(--green-faint);
+            }
+
+        .tab-count {
+            font-size: 9px;
+            padding: 1px 7px;
+            background: var(--green-dim);
+            color: var(--green);
+            border: 1px solid rgba(0,255,180,.3);
+            border-radius: 2px;
+            letter-spacing: 1px;
+        }
+
+            .tab-count.warn {
+                background: rgba(235,196,116,.1);
+                color: var(--warn);
+                border-color: rgba(235,196,116,.3);
+            }
+
+        /* TAB CONTENT */
+        .tab-content {
+            display: none;
+            width: 100%;
+        }
+
+            .tab-content.active {
+                display: flex;
+                justify-content: center;
+                animation: fadein .3s ease;
+            }
+
+        /* SCAN TAB */
+        .scan-wrapper {
+            display: flex;
+            gap: 1.5rem;
+            padding: 1.8rem;
+            max-width: 860px;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .cyber-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+            flex: 1;
+            min-width: 280px;
+            max-width: 400px;
+            position: relative;
+        }
+
+            .cyber-card::before, .cyber-card::after {
+                content: '';
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                border-color: var(--green);
+                border-style: solid;
+                border-width: 0;
+                z-index: 1;
+                pointer-events: none;
+            }
+
+            .cyber-card::before {
+                top: -1px;
+                left: -1px;
+                border-top-width: 2px;
+                border-left-width: 2px;
+            }
+
+            .cyber-card::after {
+                bottom: -1px;
+                right: -1px;
+                border-bottom-width: 2px;
+                border-right-width: 2px;
+            }
+
+        .cyber-card-header {
+            padding: .9rem 1.2rem;
+            background: rgba(0,255,180,.03);
+            border-bottom: 1px solid var(--border);
+            font-family: var(--raj);
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--green);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+            .cyber-card-header::before {
+                content: '//';
+                color: var(--text-muted);
+                font-size: 11px;
+            }
+
+        .cyber-card-body {
+            padding: 1.4rem;
+            text-align: center;
+            color: var(--text-main);
+        }
+
+        #reader {
+            width: 100%;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .wait-icon {
+            font-size: 2.5rem;
+            opacity: .2;
+            margin-bottom: .8rem;
+        }
+
+        .wait-text {
+            font-size: 11px;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+        }
+
+        .res-name {
+            font-family: var(--raj);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-main);
+            letter-spacing: 1px;
+            margin-bottom: .4rem;
+        }
+
+        .res-meta {
+            font-size: 11px;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            margin-bottom: .25rem;
+        }
+
+            .res-meta span {
+                color: var(--green-muted);
+            }
+
+        .badge-direction {
+            display: inline-block;
+            padding: 5px 20px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin: .9rem 0;
+        }
+
+        .badge-in {
+            background: rgba(0,255,180,.1);
+            color: var(--green);
+            border: 1px solid rgba(0,255,180,.4);
+        }
+
+        .badge-out {
+            background: rgba(255,68,68,.1);
+            color: var(--danger);
+            border: 1px solid rgba(255,68,68,.4);
+        }
+
+        .btn-rescan {
+            margin-top: .6rem;
+            padding: 7px 20px;
+            font-family: var(--mono);
+            font-size: 11px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--green-muted);
+            background: var(--green-faint);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all .2s;
+        }
+
+            .btn-rescan:hover {
+                border-color: var(--green);
+                color: var(--green);
+            }
+
+        /* TABLE SHELL */
+        .table-wrapper {
+            padding: 1.8rem;
+            max-width: 1000px;
+            width: 100%;
+        }
+
+        .ac-table-shell {
+            width: 100%;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+
+            .ac-table-shell::before, .ac-table-shell::after {
+                content: '';
+                position: absolute;
+                width: 12px;
+                height: 12px;
+                border-color: var(--green);
+                border-style: solid;
+                border-width: 0;
+                pointer-events: none;
+            }
+
+            .ac-table-shell::before {
+                top: -1px;
+                left: -1px;
+                border-top-width: 2px;
+                border-left-width: 2px;
+            }
+
+            .ac-table-shell::after {
+                bottom: -1px;
+                right: -1px;
+                border-bottom-width: 2px;
+                border-right-width: 2px;
+            }
+
+        .ac-table-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: .85rem 1.2rem;
+            background: rgba(0,255,180,.03);
+            border-bottom: 1px solid var(--border);
+        }
+
+            .ac-table-head h2 {
+                font-family: var(--raj);
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: var(--green);
+            }
+
+                .ac-table-head h2::before {
+                    content: '// ';
+                    color: var(--text-muted);
+                    font-size: 11px;
+                }
+
+        .ac-search {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            background: var(--green-faint);
+            border: 1px solid var(--border);
+            border-radius: 3px;
+            padding: 0 11px;
+            height: 32px;
+            width: 200px;
+            transition: width .2s, border-color .2s;
+        }
+
+            .ac-search:focus-within {
+                width: 240px;
+                border-color: var(--green);
+            }
+
+            .ac-search input {
+                background: transparent;
+                border: none;
+                outline: none;
+                font-family: var(--mono);
+                font-size: 11px;
+                color: var(--text-main);
+                letter-spacing: 1px;
+                width: 100%;
+            }
+
+                .ac-search input::placeholder {
+                    color: var(--text-muted);
+                }
+
+            .ac-search i {
+                color: var(--text-muted);
+                font-size: 11px;
+            }
+
+        .ac-table-body {
+            overflow-x: auto;
+            max-height: 58vh;
+            overflow-y: auto;
+        }
+
+            .ac-table-body::-webkit-scrollbar {
+                width: 3px;
+                height: 3px;
+            }
+
+            .ac-table-body::-webkit-scrollbar-thumb {
+                background: rgba(0,255,180,.15);
+                border-radius: 2px;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        thead th {
+            position: sticky;
+            top: 0;
+            padding: 10px 16px;
+            font-size: 9px;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+            color: var(--green-muted);
+            background: rgba(0,16,10,.97);
+            border-bottom: 1px solid var(--border);
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid rgba(0,255,180,.05);
+            transition: background .2s;
+        }
+
+            tbody tr:hover {
+                background: rgba(0,255,180,.05);
+            }
+
+            tbody tr:nth-child(even) {
+                background: rgba(0,255,180,.015);
+            }
+
+        tbody td {
+            padding: 10px 16px;
+            font-size: 12px;
+            color: var(--text-main);
+            letter-spacing: .5px;
+        }
+
+        tbody tr.hide {
+            display: none;
+        }
+
+        .status {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 2px;
+            font-family: var(--mono);
+            font-size: 9px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+            .status.delivered {
+                background: rgba(0,255,180,.1);
+                color: var(--green);
+                border: 1px solid rgba(0,255,180,.3);
+            }
+
+            .status.cancelled {
+                background: rgba(255,68,68,.1);
+                color: var(--danger);
+                border: 1px solid rgba(255,68,68,.3);
+            }
+
+            .status.pending {
+                background: rgba(235,196,116,.1);
+                color: var(--warn);
+                border: 1px solid rgba(235,196,116,.3);
+            }
+
+        /* Empty state */
+        .empty-state {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+            .empty-state i {
+                font-size: 2rem;
+                color: var(--text-dim);
+                margin-bottom: .8rem;
+                display: block;
+            }
+
+            .empty-state p {
+                font-size: 11px;
+                letter-spacing: 2px;
+                color: var(--text-muted);
+                text-transform: uppercase;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="guard-nav">
+        <div class="nav-logo">
+            <div class="dot"></div>
+            <span class="bracket">[</span>&nbsp;A.C.SYSTEM&nbsp;<span class="bracket">]</span>
+        </div>
+        <div class="nav-right">
+            <div class="nav-time" id="liveClock">--:--:--</div>
+            <a asp-area="" asp-controller="Account" asp-action="Signout" class="logout-link">
+                <i class="fa fa-right-from-bracket"></i> Logout
+            </a>
+        </div>
+    </nav>
+
+    <!-- TAB BAR -->
+    <div class="tab-bar">
+        <button class="tab-btn active" onclick="switchTab('scan', this)">
+            <i class="fa fa-qrcode"></i> QR Scan
+        </button>
+        <button class="tab-btn" onclick="switchTab('permissions', this)">
+            <i class="fa fa-id-card"></i> Permissions
+            @if (approvedCount > 0)
+            {
+                <span class="tab-count">@approvedCount</span>
+            }
+            @* Show total count always so we know data is arriving *@
+            @if (permissions.Count > 0)
+            {
+                <span class="tab-count warn">@permissions.Count</span>
+            }
+        </button>
+        <button class="tab-btn" onclick="switchTab('journal', this)">
+            <i class="fa fa-list-ul"></i> Access Log
+            @if (accessLogs.Count > 0)
+            {
+                <span class="tab-count warn">@accessLogs.Count</span>
+            }
+        </button>
+    </div>
+
+    <!-- TAB 1: QR SCAN -->
+    <div class="tab-content active" id="tab-scan">
+        <div class="scan-wrapper">
+            <div class="cyber-card">
+                <div class="cyber-card-header">Camera Feed</div>
+                <div class="cyber-card-body">
+                    <div id="reader"></div>
+                    <p class="wait-text" style="margin-top:.7rem;">Point QR code at the camera</p>
+                </div>
+            </div>
+            <div class="cyber-card">
+                <div class="cyber-card-header">Scan Result</div>
+                <div class="cyber-card-body">
+                    <div id="waitState">
+                        <div class="wait-icon"><i class="fa fa-hourglass-half"></i></div>
+                        <p class="wait-text">Awaiting scan...</p>
+                    </div>
+                    <div id="resultState" style="display:none;">
+                        <div class="res-name" id="resName"></div>
+                        <div class="res-meta"><span>INVITER: </span><span id="resInviter"></span></div>
+                        <div class="res-meta"><span>REASON: </span><span id="resReason"></span></div>
+                        <div class="res-meta"><span>VALID UNTIL: </span><span id="resValid"></span></div>
+                        <div id="resBadge"></div>
+                        <button class="btn-rescan" onclick="resetScan()"><i class="fa fa-rotate-right"></i> Scan Again</button>
+                    </div>
+                    <div id="errorState" style="display:none;">
+                        <div class="wait-icon" style="color:var(--warn);"><i class="fa fa-triangle-exclamation"></i></div>
+                        <div class="res-meta" id="resError" style="color:var(--warn);font-size:12px;letter-spacing:1px;"></div>
+                        <button class="btn-rescan" onclick="resetScan()" style="margin-top:.8rem;"><i class="fa fa-rotate-right"></i> Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TAB 2: PERMISSIONS -->
+    <div class="tab-content" id="tab-permissions">
+        <div class="table-wrapper">
+            <div class="ac-table-shell">
+                <div class="ac-table-head">
+                    <h2>
+                        Permissions
+                        <span style="font-family:var(--mono); font-size:10px; color:var(--text-muted);
+                                     font-weight:normal; letter-spacing:1px; margin-left:8px;">
+                            (@permissions.Count records)
+                        </span>
+                    </h2>
+                    <div class="ac-search">
+                        <i class="fa fa-search"></i>
+                        <input type="search" id="permSearch" placeholder="Search...">
+                    </div>
+                </div>
+                <div class="ac-table-body">
+                    @if (permissions.Count == 0)
+                    {
+                        <div class="empty-state">
+                            <i class="fa fa-inbox"></i>
+                            <p>No permission records found</p>
+                        </div>
+                    }
+                    else
+                    {
+                        <table id="perm-table">
+                            <thead>
+                                <tr>
+                                    <th>Full Name</th>
+                                    <th>Email</th>
+                                    <th>Reason</th>
+                                    <th>Date</th>
+                                    <th>Duration</th>
+                                    <th>Profession</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var p in permissions)
+                                {
+                                    <tr>
+                                        <td>@p.Name @p.Surname</td>
+                                        <td style="color:var(--text-muted); font-size:11px;">@p.Email</td>
+                                        <td>@p.Reason</td>
+                                        <td>@p.Date?.ToString("dd.MM.yyyy HH:mm")</td>
+                                        <td>@p.Duration</td>
+                                        <td style="color:var(--text-muted);">@p.Profession</td>
+                                        <td>
+                                            @switch (p.Status)
+                                            {
+                                                case Status.Approved:
+                                                    <span class="status delivered">Approved</span>
+                                                    break;
+                                                case Status.Rejected:
+                                                    <span class="status cancelled">Rejected</span>
+                                                    break;
+                                                default:
+                                                    <span class="status pending">Pending</span>
+                                                    break;
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TAB 3: ACCESS LOG -->
+    <div class="tab-content" id="tab-journal">
+        <div class="table-wrapper">
+            <div class="ac-table-shell">
+                <div class="ac-table-head">
+                    <h2>
+                        Access Log
+                        <span style="font-family:var(--mono); font-size:10px; color:var(--text-muted);
+                                     font-weight:normal; letter-spacing:1px; margin-left:8px;">
+                            (@accessLogs.Count records)
+                        </span>
+                    </h2>
+                    <div class="ac-search">
+                        <i class="fa fa-search"></i>
+                        <input type="search" id="logSearch" placeholder="Search...">
+                    </div>
+                </div>
+                <div class="ac-table-body">
+                    @if (accessLogs.Count == 0)
+                    {
+                        <div class="empty-state">
+                            <i class="fa fa-inbox"></i>
+                            <p>No access log records found</p>
+                        </div>
+                    }
+                    else
+                    {
+                        <table id="log-table">
+                            <thead>
+                                <tr>
+                                    <th>Name / Note</th>
+                                    <th>Direction</th>
+                                    <th>Time</th>
+                                    <th>Scanned By</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var log in accessLogs)
+                                {
+                                    <tr>
+                                        <td>@log.Note</td>
+                                        <td>
+                                            @if (log.Direction == "IN")
+                                            {
+                                                <span class="status delivered">ENTRY</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="status cancelled">EXIT</span>
+                                            }
+                                        </td>
+                                        <td><strong>@log.Timestamp.ToString("HH:mm")</strong></td>
+                                        <td style="color:var(--text-muted); font-size:11px;">@log.ScannedBy</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+    <script>
+        /* Live clock */
+        function updateClock() {
+            const now = new Date(), pad = n => String(n).padStart(2,'0');
+            document.getElementById('liveClock').textContent =
+                `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+        }
+        updateClock(); setInterval(updateClock, 1000);
+
+        /* Tab switching */
+        function switchTab(name, btn) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById('tab-' + name).classList.add('active');
+            if (name === 'scan' && !isProcessing) startScanner();
+            else if (name !== 'scan' && scanner) scanner.stop().catch(() => {});
+        }
+
+        /* QR Scanner */
+        let scanner = null, isProcessing = false;
+
+        function startScanner() {
+            if (scanner) {
+                scanner.stop().catch(() => {}).finally(() => { scanner = null; _init(); });
+            } else { _init(); }
+        }
+
+        function _init() {
+            scanner = new Html5Qrcode("reader");
+            scanner.start(
+                { facingMode: "environment" },
+                { fps: 10, qrbox: { width: 220, height: 220 } },
+                onScanSuccess, () => {}
+            ).catch(() => {
+                document.getElementById("reader").innerHTML =
+                    '<p style="color:var(--danger);padding:1rem;font-size:12px;">Camera access denied.</p>';
+            });
+        }
+
+        function onScanSuccess(token) {
+            if (isProcessing) return;
+            isProcessing = true;
+            fetch(`/guard/doscan?token=${encodeURIComponent(token)}`)
+                .then(r => r.json())
+                .then(data => {
+                    scanner.stop().catch(() => {});
+                    if (data.success) showResult(data);
+                    else showError(data.message);
+                })
+                .catch(() => showError("Server error"));
+        }
+
+        function showResult(data) {
+            hide('waitState'); hide('errorState'); show('resultState');
+            document.getElementById('resName').textContent    = data.name;
+            document.getElementById('resInviter').textContent = data.inviter    || '—';
+            document.getElementById('resReason').textContent  = data.reason     || '—';
+            document.getElementById('resValid').textContent   = data.validUntil || '—';
+            document.getElementById('resBadge').innerHTML =
+                '<span class="badge-direction badge-in"><i class="fa fa-check"></i> ACCESS GRANTED</span>';
+            setTimeout(resetScan, 5000);
+        }
+
+        function showError(msg) {
+            hide('waitState'); hide('resultState'); show('errorState');
+            document.getElementById('resError').textContent = msg;
+            setTimeout(resetScan, 4000);
+        }
+
+        function resetScan() {
+            show('waitState'); hide('resultState'); hide('errorState');
+            isProcessing = false; startScanner();
+        }
+
+        function show(id) { document.getElementById(id).style.display = 'block'; }
+        function hide(id) { document.getElementById(id).style.display = 'none';  }
+
+        /* Search */
+        function filterTable(inputId, tableId) {
+            const val = document.getElementById(inputId).value.toLowerCase();
+            const tbl = document.getElementById(tableId);
+            if (!tbl) return;
+            tbl.querySelectorAll('tbody tr').forEach(row => {
+                row.classList.toggle('hide', !row.textContent.toLowerCase().includes(val));
+            });
+        }
+        document.getElementById('permSearch').addEventListener('input', () => filterTable('permSearch','perm-table'));
+        document.getElementById('logSearch').addEventListener('input',  () => filterTable('logSearch','log-table'));
+
+        window.addEventListener('load', startScanner);
+    </script>
+</body>
+</html>

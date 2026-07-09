@@ -22,7 +22,7 @@ namespace Project.WebUI.Controllers
             this.mediator = mediator;
             _dbContext = dbContext;
         }
-        [Authorize(Roles = "user,muhafize")]
+        [Authorize(Roles = "user")]
         public async Task<IActionResult> Index()
         {
             ClaimsPrincipal currentUser = User;
@@ -41,8 +41,7 @@ namespace Project.WebUI.Controllers
                 .Where(y => y.UserId == user.Id)
                 .Select(r => r.RoleId).FirstOrDefault();
 
-            if (role == 2)
-                return RedirectToAction("Watch");
+           
 
 
             ViewBag.professionName = _dbContext.Professions
@@ -63,19 +62,21 @@ namespace Project.WebUI.Controllers
         {
             var currentUser = User;
             var user = new ProjectUser();
-
             if (currentUser.Identity.IsAuthenticated)
             {
                 string userId = currentUser.FindFirstValue(ClaimTypes.NameIdentifier);
                 int.TryParse(userId, out int UserId);
                 user = _dbContext.Users.Find(UserId);
             }
-
             model.CreateCommand.ProjectUserId = user.Id;
             model.CreateCommand.Status = Status.Pending;
             var response = await mediator.Send(model.CreateCommand);
 
-            return RedirectToAction("About");
+            // ✅ AJAX cavabı qaytar
+            if (response == null)
+                return Json(new { error = true, message = "Xəta baş verdi" });
+
+            return Json(new { error = false, message = "Ərizəniz göndərildi" });
         }
 
         [Route("/about")]
@@ -105,12 +106,6 @@ namespace Project.WebUI.Controllers
             };
             return View(permissionMulti);
         }
-        [Authorize(Roles = "muhafize")]
-        public async Task<IActionResult> Watch(PermissionsAllQuery query)
-        {
-            var response = await mediator.Send(query);
-
-            return View(response);
-        }
+       
     }
 }
